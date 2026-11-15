@@ -1,0 +1,41 @@
+{
+  "version": "S33_ACT_MINIMAL_ROSTER_REPLAY_20261115",
+  "paper": "Methods S33 and Table S50, detailed supplement p.113",
+  "runtime": {
+    "python": "3.11.9",
+    "numpy": "1.26.4",
+    "scipy": "1.13.1",
+    "requests": "2.34.2"
+  },
+  "numerical_threads": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "initial_attempt": "run_01 stopped at model retrieval before TPM requests or scoring",
+  "local_replay": {
+    "scoring_passes": 1,
+    "classifier_fits": 0,
+    "tuning_runs": 0,
+    "specimens": 21,
+    "donors": 11,
+    "same_TPM_sha256": 21,
+    "same_logit_values": 189,
+    "same_score_values": 189,
+    "maximum_absolute_logit_difference": 0.0,
+    "maximum_absolute_score_difference": 0.0,
+    "same_rank_and_prediction_rows": 21,
+    "same_status_and_failure_rows": 21,
+    "donor_equal_top1_original": "1",
+    "donor_equal_top1_replay": "1"
+  },
+  "technical_failures": 0,
+  "cohort": {
+    "HIP_evaluated": 11,
+    "HIP_hits": 11,
+    "TCx_evaluated": 10,
+    "TCx_hits": 10
+  },
+  "independence_scope": "Training overlap assessment is relative to the frozen UKBEC training set. Nine identities remain unresolved with GSE30453."
+}

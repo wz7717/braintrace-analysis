@@ -1,0 +1,9 @@
+# Allen ACT fixed replay and Table S50
+
+The original project task covers 21 specimens from 11 donors, with nine human classes in competition. The saved evaluation has 11 hippocampus and 10 temporal-cortex specimens and uses equal donor weighting for the primary endpoint. [Table S50 aggregate](../results/ALLEN_ACT_TABLE_S50_AGGREGATE.csv)
+
+This directory includes the two replay programs, original locked background of 16,171 ordered genes, fixed replay configuration and saved regional/confusion displays. The later local comparison checked 189 logits and 189 scores. The linked 21-row roster, case-level predictions and donor-group table are available from the project only within the applicable approved recipient scope.
+
+For an authorized replay, copy the configuration, FROZEN_RANK_BACKGROUND.csv and the exact ACT_MINIMAL_ROSTER.csv into the same analysis working directory, and verify the hashes in the configuration. Install the verified Windows wheel lock. Then invoke replay_s33.py with --config pointing to that copy and --output pointing to a new output directory. The program fetches the exact Allen processed TPM and the separately published fixed RANK model with hash checks. The compare_frozen_s33.py --original argument requires the archived protocol, roster and original linked result/evidence rather than these aggregate tables.
+
+The public Allen data site identifies the original study. Stable file metadata provides the processed TPM identities. An exact project selection is a separate object. NIAGADS covers the corresponding controlled original reads. [Public Allen study](https://aging.brain-map.org/download/index) · [Controlled reads](https://dss.niagads.org/datasets/ng00059/) · [S33 Windows wheel lock](../environment/s33-windows-py311.lock) · [Prior local comparison](PRIOR_REPLAY_CHECK.json)

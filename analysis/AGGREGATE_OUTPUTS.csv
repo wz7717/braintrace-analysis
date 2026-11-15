@@ -1,0 +1,16 @@
+file,route,sha256,bytes,basis
+results/GTEx_HPA_ENDPOINTS.csv,S31 human comparison,2243e9d04716e430b73b5a95c7be59cfff7c5b6479077a832234334c4cef06ad,8131,Author-generated aggregate already identified in the bounded release candidate or S50 aggregate.
+results/GTEx_HPA_PAIRED_WITH_BRAINTRACE.csv,S31 human comparison,9713ecd4d65c2aadf7d182fcc39fa602a2658b67dd5d904f6576b1d453266845,3157,Author-generated aggregate already identified in the bounded release candidate or S50 aggregate.
+results/UKBEC_RANK_RF500_PAIRED_ENDPOINTS.csv,S31 UKBEC diagnostic,6915d42da4f476c7478e762acf22ace82e5a8bb55854c9307ef4fec2e0a958b2,4560,Author-generated aggregate already identified in the bounded release candidate or S50 aggregate.
+results/UKBEC_RANK_RF500_TOP1_FLOWS.csv,S31 UKBEC diagnostic,1800c4763078a700a0499ed167916269f025f8cdae4ee22de81f26dc641b7443,1992,Author-generated aggregate already identified in the bounded release candidate or S50 aggregate.
+results/BO_SOURCE_MATCHED_ENDPOINTS.csv,S32 Bo source comparison,802783a48511bc1e9230522357c3267de67811748c47d339881f74c4fdbb1e03,973,Author-generated aggregate already identified in the bounded release candidate or S50 aggregate.
+results/RHESUS_DONOR_AND_POOLED_SUMMARY.csv,S32 rhesus external comparison,d79c15ec3522c7199beca65acc2563bc46f751fbdaeec4e63677440828852b3a,8618,Author-generated aggregate already identified in the bounded release candidate or S50 aggregate.
+results/RHESUS_PAIRED_DIFFERENCES.csv,S32 rhesus external comparison,8fd5246469bbc49aab65f6aa4eee7e26663754bdb7059d54f25b7eb46334bacb,7615,Author-generated aggregate already identified in the bounded release candidate or S50 aggregate.
+results/PSYCHENCODE_DONOR_AND_POOLED_SUMMARY.csv,S32 PsychENCODE comparison,823a6521a97a7f7ca2f77466e8e5cec301db86dc2ff7ee34feaf236d023eba65,2990,Author-generated aggregate already identified in the bounded release candidate or S50 aggregate.
+results/PSYCHENCODE_PAIRED_DIFFERENCES.csv,S32 PsychENCODE comparison,72b45dce67c3d32d3cddb8134737cf36ce21bc499011dc8c1e635f99cac66552,2031,Author-generated aggregate already identified in the bounded release candidate or S50 aggregate.
+results/AHBA_POOLED_ENDPOINTS.csv,S32 AHBA comparison,6ecf9bc97cb058f2017f4562e1ff89c776fa21c280b85ab7f7d941e8de65d765,896,Author-generated aggregate already identified in the bounded release candidate or S50 aggregate.
+results/AHBA_PAIRED_DIFFERENCES.csv,S32 AHBA comparison,cb49dfdb85ffebfb83dfba9f609054cda99f523184725b54863f41f57479e9f5,865,Author-generated aggregate already identified in the bounded release candidate or S50 aggregate.
+results/ALLEN_ACT_TABLE_S50_AGGREGATE.csv,S33 Allen ACT,9ccd821acd5b5c3354de793b3cb103689cff8b96f7c332db3a428840a457970d,280,Author-generated aggregate already identified in the bounded release candidate or S50 aggregate.
+results/B17_SUMMARY.csv,B17 adult GSE25219,b65257dce58adcbbe9e489390382779213a0cfdae878456190827b73466c8a10,1360,Exact project aggregate from a verified addendum.
+act/saved_results/BY_REGION.csv,S33 ACT regional display,fb72cddde0bc0d6152827ae15b6a12344c62898da6086b6ca0f3c61cd43de4ca,213,Exact project aggregate from a verified addendum.
+act/saved_results/CONFUSION.csv,S33 ACT confusion display,2c04fd6f2eea438160051138ffd79ecef58805381eaf130997482ef95b964d01,148,Exact project aggregate from a verified addendum.

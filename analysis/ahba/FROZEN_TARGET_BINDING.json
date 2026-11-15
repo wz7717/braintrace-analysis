@@ -1,0 +1,79 @@
+{
+  "paper": "Editorial Concise 20261115, Methods S32 (detailed supplement p.112)",
+  "starting_point": "Post-transform AHBA target, after public sample aggregation and frozen macaque state. Fixed scientific evaluation.",
+  "query_matrix": {
+    "path": "query_matrix.npy",
+    "sha256": "4f55adf5c41f0a2d7b321e3d5067f3bd876bdac1ca8693a477221c38f6b16d3a",
+    "shape": [
+      231,
+      5000
+    ],
+    "dtype": "<f4",
+    "original_member": "query_matrix.npy",
+    "containing_source_sha256": "2683d92bd7c4716e34e9550162016eb3457aa70dd5650258afa854f4b773130f"
+  },
+  "evaluation_index": {
+    "path": "evaluation_index.csv",
+    "sha256": "3a562a2f1f8c77f77e685be91a1d41a72039e5fded4803feaa804de1e3b3c95f",
+    "columns": [
+      "profile_id",
+      "donor_id",
+      "allowed_truth_json",
+      "prediction_failure"
+    ],
+    "source_sha256": "71d67498d0f4101ac7db4e6833593719c957c6277dfdef9b49bf93374a7531f4",
+    "original_row_order_preserved": true,
+    "excluded_reporting_column": "full_library_total"
+  },
+  "source_attribution": {
+    "study": "Allen Human Brain Atlas RNA-seq",
+    "sources": "../../sources/allen_ahba/SOURCE_CREDITS.csv",
+    "terms": "https://alleninstitute.org/legal/terms-of-use",
+    "citation": "https://alleninstitute.org/legal/citation-policy"
+  },
+  "axes": {
+    "row_order": "Evaluation index rows in file order",
+    "column_order": "Fixed 5,000-gene model axis from genes.json",
+    "model_assets": [
+      {
+        "candidate_path": "software/runtime_assets/science/macaque/floor_clip/state.npz",
+        "url": "https://raw.githubusercontent.com/wz7717/braintrace-web/2bf9563cef8190f0483e23a4d54f7e6466fe6c77/runtime_assets/science/macaque/floor_clip/state.npz",
+        "sha256": "b6d1d2515bbbd1fc700459b53e2edafd29f421c6d69fbfa1886c443bce2a03a1"
+      },
+      {
+        "candidate_path": "software/runtime_assets/science/macaque/floor_clip/model.joblib",
+        "url": "https://raw.githubusercontent.com/wz7717/braintrace-web/2bf9563cef8190f0483e23a4d54f7e6466fe6c77/runtime_assets/science/macaque/floor_clip/model.joblib",
+        "sha256": "b8afe70bfba61d0007b097742ae86a28437556fab99e517c102f8edf9c44f4cc"
+      },
+      {
+        "candidate_path": "software/runtime_assets/science/macaque/floor_clip/genes.json",
+        "url": "https://raw.githubusercontent.com/wz7717/braintrace-web/2bf9563cef8190f0483e23a4d54f7e6466fe6c77/runtime_assets/science/macaque/floor_clip/genes.json",
+        "sha256": "50ebfabe16dcf36c7bb82045b889b7195d48594f164dcbf9db0171b54302f5a8"
+      }
+    ]
+  },
+  "cohort": {
+    "original_public_assays": 242,
+    "technical_profiles": 231,
+    "public_profile_keys_verified": 231,
+    "donor_count": 2,
+    "truth_eligible": 223,
+    "single_label": 56,
+    "allowed_multi_label": 167,
+    "out_of_scope": 8,
+    "technical_failures": 0
+  },
+  "centroid_access": {
+    "body_in_this_candidate": false,
+    "historical_member": "source_centroids.npy",
+    "sha256": "7ff6b5124541dc7b519f4c36884a54cf1967afda363b15025b36884caa5e049d",
+    "shape": [
+      10,
+      5000
+    ],
+    "dtype": "<f8",
+    "purpose": "Frozen donor-equal Bo reference required by common-input Pearson",
+    "conditions": "Exact member through the project custodian where original data and relevant contributor permissions cover the intended audience and use. An authorized equivalent must match the recorded axis, dtype and SHA-256."
+  },
+  "scope": "Target byte extraction and evaluation projection checked. No scoring or end-to-end raw reconstruction was run here."
+}

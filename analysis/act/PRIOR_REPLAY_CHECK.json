@@ -1,0 +1,70 @@
+{
+  "status": "PASS",
+  "scope": "Prior local run; not rerun in this addendum",
+  "verified": {
+    "frozen_protocol": true,
+    "original_roster_hash": true,
+    "minimal_roster_and_background_hashes": true,
+    "model_public_sha256": true,
+    "entry_and_config_hashes": true,
+    "same_21_specimens_and_11_donor_groups": true,
+    "all_TPM_bodies_match_original": true,
+    "all_logit_cells_match": true,
+    "all_softmax_score_cells_match": true,
+    "all_sort_orders_and_predictions_match": true,
+    "all_statuses_and_failure_reasons_match": true,
+    "donor_rows_match_after_recoding": true,
+    "reaggregated_donor_equal_top1_matches": true,
+    "endpoints_match": true,
+    "region_rows_and_confusion_counts_match": true,
+    "single_scoring_pass": true
+  },
+  "comparison": {
+    "specimens": 21,
+    "donors": 11,
+    "same_TPM_sha256": 21,
+    "same_logit_values": 189,
+    "same_score_values": 189,
+    "maximum_absolute_logit_difference": 0.0,
+    "maximum_absolute_score_difference": 0.0,
+    "same_rank_and_prediction_rows": 21,
+    "same_status_and_failure_rows": 21,
+    "donor_equal_top1_original": "1",
+    "donor_equal_top1_replay": "1",
+    "endpoint_values_replay": {
+      "scored_specimens": 21,
+      "technical_failures": 0,
+      "model_misclassifications": 0,
+      "pooled_top1_hits": 21,
+      "pooled_top1": 1.0,
+      "primary_donor_equal_top1": 1.0,
+      "primary_exact_fraction": "1",
+      "by_region": [
+        {
+          "region": "HIP",
+          "truth_class_id": "4219",
+          "truth_name": "Hippocampus",
+          "specimens": 11,
+          "donors": 11,
+          "hits": 11,
+          "misclassified": 0,
+          "technical_failures": 0,
+          "top1": 1.0,
+          "misclassification_destinations": {}
+        },
+        {
+          "region": "TCx",
+          "truth_class_id": "4132",
+          "truth_name": "Temporal cortex",
+          "specimens": 10,
+          "donors": 10,
+          "hits": 10,
+          "misclassified": 0,
+          "technical_failures": 0,
+          "top1": 1.0,
+          "misclassification_destinations": {}
+        }
+      ]
+    }
+  }
+}

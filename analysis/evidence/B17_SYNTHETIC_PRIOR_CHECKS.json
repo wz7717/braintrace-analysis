@@ -1,0 +1,27 @@
+{
+  "prior_Pearson_synthetic_check": {
+    "numpy": "1.26.4",
+    "case": "SYN_Q_A1",
+    "eligible_genes": 37,
+    "finite_scores": 9,
+    "top1": "4696",
+    "synthetic": true
+  },
+  "prior_portability_check": {
+    "status": "PASS",
+    "included_original_sources": 8,
+    "included_path_portability_derivatives": 4,
+    "entry_checks": [
+      "launcher_help",
+      "fixture"
+    ],
+    "native_environment": "R 4.6.1, SingleR 2.14.2; loaded prebuilt synthetic reference; no classifier fitting",
+    "matched_synthetic_output_sha256": {
+      "native_scores.tsv": "07e1c4174d5273b0ba1ae9f1b6e9f2028bfc54c7fda58b17ab933bd9f5508f4a",
+      "native_query_status.tsv": "46da3290d6e6f0ef53bb7e790796d217148c79a76f9a065a5c7c28abce13adff"
+    },
+    "paper_cohort_rerun": false,
+    "real_frozen_replay_requires_item_level_access": true
+  },
+  "scope": "Historical synthetic checks"
+}

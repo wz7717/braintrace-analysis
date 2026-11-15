@@ -1,0 +1,495 @@
+{
+  "S31_S32_Python": {
+    "version": "3.11.9",
+    "packages": {
+      "numpy": "1.26.4",
+      "pandas": "2.2.3",
+      "scipy": "1.13.1",
+      "python-dateutil": "2.9.0.post0",
+      "pytz": "2026.3.post1",
+      "tzdata": "2026.3",
+      "six": "1.17.0",
+      "pip": "24.0"
+    },
+    "actual_run_platform": "Windows-10-10.0.26300-SP0",
+    "wheels": "PUBLIC_SOURCE_IDENTITIES.csv"
+  },
+  "S31_compatible_R": {
+    "official_r_release": "R 4.6.2 Windows x64 UCRT",
+    "bioconductor": "3.23",
+    "loaded_package_lock": [
+      {
+        "version": "4.6.2",
+        "build": "Windows x86-64 UCRT installer",
+        "license": "See R distribution notices",
+        "downloaded_file": "R-4.6.2-win.exe",
+        "downloaded_bytes": "91363600",
+        "downloaded_sha256": "b0b0053baa1963b6d8a28c9642d50107ef9ce2f41c8b9a90e952846c8918b38a",
+        "equals_old_package_archive_sha256": "False",
+        "name": "R"
+      },
+      {
+        "version": "2.72.0",
+        "build": "R 4.6.0; x86_64-w64-mingw32; 2026-04-29 10:50:27 UTC; windows",
+        "license": "Artistic-2.0",
+        "downloaded_file": "Biobase_2.72.0.zip",
+        "downloaded_bytes": "2060367",
+        "downloaded_sha256": "cc2860d489ce40b1d5542adb7dba7b5245be49a393c8c1c6d6164c3f5945d92d",
+        "equals_old_package_archive_sha256": "True",
+        "name": "Biobase"
+      },
+      {
+        "version": "0.58.1",
+        "build": "R 4.6.0; ; 2026-05-14 10:20:17 UTC; windows",
+        "license": "Artistic-2.0",
+        "downloaded_file": "BiocGenerics_0.58.1.zip",
+        "downloaded_bytes": "665577",
+        "downloaded_sha256": "04d8c570acf0d74b6a64fceb72f31d37b12102d5058d6f18fbb63310b77571ab",
+        "equals_old_package_archive_sha256": "True",
+        "name": "BiocGenerics"
+      },
+      {
+        "version": "0.38.2",
+        "build": "R 4.6.0; ; 2026-05-26 21:59:34 UTC; windows",
+        "license": "Artistic-2.0",
+        "downloaded_file": "DelayedArray_0.38.2.zip",
+        "downloaded_bytes": "2116245",
+        "downloaded_sha256": "0fdd2819d237ea29fb0c9014430f3c9912d47032fe566feef3a36de05302a42e",
+        "equals_old_package_archive_sha256": "True",
+        "name": "DelayedArray"
+      },
+      {
+        "version": "1.64.0",
+        "build": "R 4.6.0; ; 2026-04-29 15:12:33 UTC; windows",
+        "license": "Artistic-2.0",
+        "downloaded_file": "GenomicRanges_1.64.0.zip",
+        "downloaded_bytes": "1959041",
+        "downloaded_sha256": "d8291f40d1daa4d8e2f4fcdfec7ebf5c57db7023ecd1d25f0dcce4ca464ad615",
+        "equals_old_package_archive_sha256": "True",
+        "name": "GenomicRanges"
+      },
+      {
+        "version": "2.46.0",
+        "build": "R 4.6.0; x86_64-w64-mingw32; 2026-04-29 11:31:00 UTC; windows",
+        "license": "Artistic-2.0",
+        "downloaded_file": "IRanges_2.46.0.zip",
+        "downloaded_bytes": "2494619",
+        "downloaded_sha256": "084601d1d37b90e19280104c85d0a5326b35ffb137b1aa6b0f385a489a947dbc",
+        "equals_old_package_archive_sha256": "True",
+        "name": "IRanges"
+      },
+      {
+        "version": "1.7-6",
+        "build": "R 4.6.2; x86_64-w64-mingw32; 2026-10-29 09:49:47 UTC; windows",
+        "license": "GPL (>= 2) | file LICENCE",
+        "downloaded_file": "R-4.6.2-win.exe",
+        "downloaded_bytes": "91363600",
+        "downloaded_sha256": "b0b0053baa1963b6d8a28c9642d50107ef9ce2f41c8b9a90e952846c8918b38a",
+        "equals_old_package_archive_sha256": "",
+        "name": "Matrix"
+      },
+      {
+        "version": "1.24.0",
+        "build": "R 4.6.0; ; 2026-04-29 11:26:40 UTC; windows",
+        "license": "Artistic-2.0",
+        "downloaded_file": "MatrixGenerics_1.24.0.zip",
+        "downloaded_bytes": "460378",
+        "downloaded_sha256": "adfd50c258ac3c6407a23fe26ad37a44812dc3e3dbad392fdd4d98c7f28a8ba3",
+        "equals_old_package_archive_sha256": "True",
+        "name": "MatrixGenerics"
+      },
+      {
+        "version": "1.1.2",
+        "build": "R 4.6.2; x86_64-w64-mingw32; 2026-11-11 02:18:30 UTC; windows",
+        "license": "GPL (>= 2)",
+        "downloaded_file": "Rcpp_1.1.2.zip",
+        "downloaded_bytes": "2969203",
+        "downloaded_sha256": "a3029577060dabfeadfc86af0f3ee797aa90a1d858dab8c896b10ebf12c5c1dd",
+        "equals_old_package_archive_sha256": "False",
+        "name": "Rcpp"
+      },
+      {
+        "version": "1.12.1",
+        "build": "R 4.6.1; x86_64-w64-mingw32; 2026-09-22 15:16:14 UTC; windows",
+        "license": "Artistic-2.0",
+        "downloaded_file": "S4Arrays_1.12.1.zip",
+        "downloaded_bytes": "1032427",
+        "downloaded_sha256": "7ed9608a41f212edeef8b0d78d9b0ee4263b0b4c4436dd5add635ff4d523090a",
+        "equals_old_package_archive_sha256": "True",
+        "name": "S4Arrays"
+      },
+      {
+        "version": "0.50.3",
+        "build": "R 4.6.1; x86_64-w64-mingw32; 2026-09-16 00:41:50 UTC; windows",
+        "license": "Artistic-2.0",
+        "downloaded_file": "S4Vectors_0.50.3.zip",
+        "downloaded_bytes": "1900644",
+        "downloaded_sha256": "e67e1ab1463a803ef0b63220ff04a8c5ca188e39f8a4ffae6dcbb0720dbddeb7",
+        "equals_old_package_archive_sha256": "True",
+        "name": "S4Vectors"
+      },
+      {
+        "version": "1.2.0",
+        "build": "R 4.6.0; ; 2026-05-04 08:56:19 UTC; windows",
+        "license": "Artistic-2.0",
+        "downloaded_file": "Seqinfo_1.2.0.zip",
+        "downloaded_bytes": "434620",
+        "downloaded_sha256": "5d5a5b8913c899614ee840f2e203639c839b12403b089e749af2bcceb3960aae",
+        "equals_old_package_archive_sha256": "True",
+        "name": "Seqinfo"
+      },
+      {
+        "version": "2.14.2",
+        "build": "R 4.6.1; x86_64-w64-mingw32; 2026-09-10 15:15:29 UTC; windows",
+        "license": "GPL-3",
+        "downloaded_file": "SingleR_2.14.2.zip",
+        "downloaded_bytes": "1019757",
+        "downloaded_sha256": "df58905bb11458f812f745f3ebb6c69beb3949785d6d25dd86f06bb750be0177",
+        "equals_old_package_archive_sha256": "True",
+        "name": "SingleR"
+      },
+      {
+        "version": "1.12.3",
+        "build": "R 4.6.1; x86_64-w64-mingw32; 2026-09-23 06:22:52 UTC; windows",
+        "license": "Artistic-2.0",
+        "downloaded_file": "SparseArray_1.12.3.zip",
+        "downloaded_bytes": "1793221",
+        "downloaded_sha256": "86158ea0791d45479a6dadf442d47839c7ed6e90f41dfe1a03f3344d25e1e29b",
+        "equals_old_package_archive_sha256": "True",
+        "name": "SparseArray"
+      },
+      {
+        "version": "1.42.0",
+        "build": "R 4.6.0; ; 2026-04-29 11:30:24 UTC; windows",
+        "license": "Artistic-2.0",
+        "downloaded_file": "SummarizedExperiment_1.42.0.zip",
+        "downloaded_bytes": "1507920",
+        "downloaded_sha256": "1b9aec417df690a8d3db41c1ba761de6f7ba6fe9604310ccfb6c7f60013fe2aa",
+        "equals_old_package_archive_sha256": "True",
+        "name": "SummarizedExperiment"
+      },
+      {
+        "version": "0.52.0",
+        "build": "R 4.6.0; x86_64-w64-mingw32; 2026-04-29 10:56:17 UTC; windows",
+        "license": "Artistic-2.0",
+        "downloaded_file": "XVector_0.52.0.zip",
+        "downloaded_bytes": "695793",
+        "downloaded_sha256": "a4b5fc301ba6c796de1cdf0f1001538836a370e234f87fa234e23c0d63c58da9",
+        "equals_old_package_archive_sha256": "True",
+        "name": "XVector"
+      },
+      {
+        "version": "1.4-8",
+        "build": "R 4.6.1; ; 2026-08-19 11:46:37 UTC; windows",
+        "license": "MIT + file LICENSE",
+        "downloaded_file": "abind_1.4-8.zip",
+        "downloaded_bytes": "67558",
+        "downloaded_sha256": "36386ba050ad3851303801fd7b2c15368ae2dfe80a013a310c7e9fc083f09754",
+        "equals_old_package_archive_sha256": "True",
+        "name": "abind"
+      },
+      {
+        "version": "4.6.2",
+        "build": "R 4.6.2; ; 2026-10-29 09:47:31 UTC; windows",
+        "license": "Part of R 4.6.2",
+        "downloaded_file": "R-4.6.2-win.exe",
+        "downloaded_bytes": "91363600",
+        "downloaded_sha256": "b0b0053baa1963b6d8a28c9642d50107ef9ce2f41c8b9a90e952846c8918b38a",
+        "equals_old_package_archive_sha256": "",
+        "name": "base"
+      },
+      {
+        "version": "2.28.0",
+        "build": "R 4.6.0; x86_64-w64-mingw32; 2026-05-01 09:36:42 UTC; windows",
+        "license": "GPL-3",
+        "downloaded_file": "beachmat_2.28.0.zip",
+        "downloaded_bytes": "1027890",
+        "downloaded_sha256": "315729de2a3975b450c9759854fca4ca0b5c66bbfe27c7b667fc5852b46222fa",
+        "equals_old_package_archive_sha256": "True",
+        "name": "beachmat"
+      },
+      {
+        "version": "4.6.2",
+        "build": "R 4.6.2; ; 2026-10-29 09:41:47 UTC; windows",
+        "license": "Part of R 4.6.2",
+        "downloaded_file": "R-4.6.2-win.exe",
+        "downloaded_bytes": "91363600",
+        "downloaded_sha256": "b0b0053baa1963b6d8a28c9642d50107ef9ce2f41c8b9a90e952846c8918b38a",
+        "equals_old_package_archive_sha256": "",
+        "name": "compiler"
+      },
+      {
+        "version": "4.6.2",
+        "build": "R 4.6.2; ; 2026-10-29 09:46:06 UTC; windows",
+        "license": "Part of R 4.6.2",
+        "downloaded_file": "R-4.6.2-win.exe",
+        "downloaded_bytes": "91363600",
+        "downloaded_sha256": "b0b0053baa1963b6d8a28c9642d50107ef9ce2f41c8b9a90e952846c8918b38a",
+        "equals_old_package_archive_sha256": "",
+        "name": "datasets"
+      },
+      {
+        "version": "0.1.4",
+        "build": "R 4.6.2; ; 2026-11-11 02:18:26 UTC; windows",
+        "license": "MIT + file LICENSE",
+        "downloaded_file": "generics_0.1.4.zip",
+        "downloaded_bytes": "85511",
+        "downloaded_sha256": "eac4ebbea12e804762c2180930f21da3c2e37d84240163e8431e2b0a1de84aa1",
+        "equals_old_package_archive_sha256": "False",
+        "name": "generics"
+      },
+      {
+        "version": "4.6.2",
+        "build": "R 4.6.2; x86_64-w64-mingw32; 2026-10-29 09:43:33 UTC; windows",
+        "license": "Part of R 4.6.2",
+        "downloaded_file": "R-4.6.2-win.exe",
+        "downloaded_bytes": "91363600",
+        "downloaded_sha256": "b0b0053baa1963b6d8a28c9642d50107ef9ce2f41c8b9a90e952846c8918b38a",
+        "equals_old_package_archive_sha256": "",
+        "name": "grDevices"
+      },
+      {
+        "version": "4.6.2",
+        "build": "R 4.6.2; x86_64-w64-mingw32; 2026-10-29 09:44:13 UTC; windows",
+        "license": "Part of R 4.6.2",
+        "downloaded_file": "R-4.6.2-win.exe",
+        "downloaded_bytes": "91363600",
+        "downloaded_sha256": "b0b0053baa1963b6d8a28c9642d50107ef9ce2f41c8b9a90e952846c8918b38a",
+        "equals_old_package_archive_sha256": "",
+        "name": "graphics"
+      },
+      {
+        "version": "4.6.2",
+        "build": "R 4.6.2; x86_64-w64-mingw32; 2026-10-29 09:46:44 UTC; windows",
+        "license": "Part of R 4.6.2",
+        "downloaded_file": "R-4.6.2-win.exe",
+        "downloaded_bytes": "91363600",
+        "downloaded_sha256": "b0b0053baa1963b6d8a28c9642d50107ef9ce2f41c8b9a90e952846c8918b38a",
+        "equals_old_package_archive_sha256": "",
+        "name": "grid"
+      },
+      {
+        "version": "0.23-1",
+        "build": "R 4.6.2; x86_64-w64-mingw32; 2026-10-29 09:49:34 UTC; windows",
+        "license": "GPL (>= 2)",
+        "downloaded_file": "R-4.6.2-win.exe",
+        "downloaded_bytes": "91363600",
+        "downloaded_sha256": "b0b0053baa1963b6d8a28c9642d50107ef9ce2f41c8b9a90e952846c8918b38a",
+        "equals_old_package_archive_sha256": "",
+        "name": "lattice"
+      },
+      {
+        "version": "1.5.0",
+        "build": "R 4.6.2; x86_64-w64-mingw32; 2026-11-11 02:19:04 UTC; windows",
+        "license": "Artistic-2.0",
+        "downloaded_file": "matrixStats_1.5.0.zip",
+        "downloaded_bytes": "557997",
+        "downloaded_sha256": "8c2db99463300c4deb4cdc13fd4cb365dd3bc107413dbfd01c44bb4a9f476c95",
+        "equals_old_package_archive_sha256": "False",
+        "name": "matrixStats"
+      },
+      {
+        "version": "4.6.2",
+        "build": "R 4.6.2; x86_64-w64-mingw32; 2026-10-29 09:46:15 UTC; windows",
+        "license": "Part of R 4.6.2",
+        "downloaded_file": "R-4.6.2-win.exe",
+        "downloaded_bytes": "91363600",
+        "downloaded_sha256": "b0b0053baa1963b6d8a28c9642d50107ef9ce2f41c8b9a90e952846c8918b38a",
+        "equals_old_package_archive_sha256": "",
+        "name": "methods"
+      },
+      {
+        "version": "4.6.2",
+        "build": "R 4.6.2; x86_64-w64-mingw32; 2026-10-29 09:44:38 UTC; windows",
+        "license": "Part of R 4.6.2",
+        "downloaded_file": "R-4.6.2-win.exe",
+        "downloaded_bytes": "91363600",
+        "downloaded_sha256": "b0b0053baa1963b6d8a28c9642d50107ef9ce2f41c8b9a90e952846c8918b38a",
+        "equals_old_package_archive_sha256": "",
+        "name": "stats"
+      },
+      {
+        "version": "4.6.2",
+        "build": "R 4.6.2; ; 2026-10-29 09:47:10 UTC; windows",
+        "license": "Part of R 4.6.2",
+        "downloaded_file": "R-4.6.2-win.exe",
+        "downloaded_bytes": "91363600",
+        "downloaded_sha256": "b0b0053baa1963b6d8a28c9642d50107ef9ce2f41c8b9a90e952846c8918b38a",
+        "equals_old_package_archive_sha256": "",
+        "name": "stats4"
+      },
+      {
+        "version": "4.6.2",
+        "build": "R 4.6.2; x86_64-w64-mingw32; 2026-10-29 09:41:45 UTC; windows",
+        "license": "Part of R 4.6.2",
+        "downloaded_file": "R-4.6.2-win.exe",
+        "downloaded_bytes": "91363600",
+        "downloaded_sha256": "b0b0053baa1963b6d8a28c9642d50107ef9ce2f41c8b9a90e952846c8918b38a",
+        "equals_old_package_archive_sha256": "",
+        "name": "tools"
+      },
+      {
+        "version": "4.6.2",
+        "build": "R 4.6.2; x86_64-w64-mingw32; 2026-10-29 09:42:45 UTC; windows",
+        "license": "Part of R 4.6.2",
+        "downloaded_file": "R-4.6.2-win.exe",
+        "downloaded_bytes": "91363600",
+        "downloaded_sha256": "b0b0053baa1963b6d8a28c9642d50107ef9ce2f41c8b9a90e952846c8918b38a",
+        "equals_old_package_archive_sha256": "",
+        "name": "utils"
+      }
+    ],
+    "loaded_DLLs": [
+      {
+        "name": "methods",
+        "bytes": "41984",
+        "sha256": "785a07179a8ef25ad509f9aa1038e11b5f40143d38947d42c6f5a228f5e1ab68"
+      },
+      {
+        "name": "utils",
+        "bytes": "138752",
+        "sha256": "fc8e45cc7dcfefe6c3ef9930a2124384ff2135847976d26aeee8fa1bdafa9308"
+      },
+      {
+        "name": "grDevices",
+        "bytes": "3828736",
+        "sha256": "af9bb46c52c4804100bdee1e0e4f37908df5cda0dca87a3fe5441adf4f5422fe"
+      },
+      {
+        "name": "graphics",
+        "bytes": "278016",
+        "sha256": "3c4efc0e165a23dae203da9a348c17fb8440e6ee6de626fbf099f3f1f3705d02"
+      },
+      {
+        "name": "stats",
+        "bytes": "623616",
+        "sha256": "a256917934c771fae7c23ade6aa5454e90da0d06d1d0db5e322b283309f6723f"
+      },
+      {
+        "name": "tools",
+        "bytes": "108032",
+        "sha256": "d0f49d8293bc29f605df9045814b1c4cdaa788e7e96f4c898dd6895e7a7eaab0"
+      },
+      {
+        "name": "grid",
+        "bytes": "162304",
+        "sha256": "bee3830bf82b24222e175ed733008799851a3f1b6b5666cfdf29fb8135e5fb50"
+      },
+      {
+        "name": "lattice",
+        "bytes": "23040",
+        "sha256": "aa1bf7c18a5b43a2162e32ee33a622c0cae848fba2197666070bf6a4c51f45e5"
+      },
+      {
+        "name": "Matrix",
+        "bytes": "1944064",
+        "sha256": "21a53e1ca880aba439087407e12055f51716db2246bfe1917126210f1553598e"
+      },
+      {
+        "name": "matrixStats",
+        "bytes": "336896",
+        "sha256": "831f0f88fb86b5c091dbbae3deb40be5b455399253499988084b4312f02cde0a"
+      },
+      {
+        "name": "S4Vectors",
+        "bytes": "164864",
+        "sha256": "d3e218a0fa7c0abacc3ffa26bbb27ceafbbcbc753237efdeeea1a36e7d5dc746"
+      },
+      {
+        "name": "IRanges",
+        "bytes": "350208",
+        "sha256": "6add5b9c018a9b015d926fb2dc16f77e74469db62898e87051a937eb24f5d70e"
+      },
+      {
+        "name": "S4Arrays",
+        "bytes": "49152",
+        "sha256": "78bcf60dcfe03a84aa7b90da5ad7fa5d63b23be58687e46c2deaf6d3cdd730e4"
+      },
+      {
+        "name": "XVector",
+        "bytes": "198144",
+        "sha256": "95162633091b8468a7c2ff578ae50b1aab73bcea7df34517cf55f473ef804024"
+      },
+      {
+        "name": "SparseArray",
+        "bytes": "577536",
+        "sha256": "4716f114c5a9188076aba3ae28b2497ea4b79dcddd9240f5a8e3c20646a5b8a2"
+      },
+      {
+        "name": "Rcpp",
+        "bytes": "1379328",
+        "sha256": "540c411084d9343b78fb5e178163c795080fd01be69705066b42de5a42aad5f6"
+      },
+      {
+        "name": "Biobase",
+        "bytes": "25600",
+        "sha256": "c953a04261d878a69fc8a0df438c05aebb584f890e68bd59419cc1d8808d93be"
+      },
+      {
+        "name": "beachmat",
+        "bytes": "2685952",
+        "sha256": "cb5727dc79d515739a3a51932cc19e7f6aa70cd1c8d8735e20e0dedc78af1f39"
+      },
+      {
+        "name": "SingleR",
+        "bytes": "1372160",
+        "sha256": "927714ef2cf6b5c644e9dc6fc2ad55f6b3a68386bf92ca2075bfe263ad5f6575"
+      },
+      {
+        "name": "R.dll",
+        "bytes": "40516096",
+        "sha256": "a5a1265a2dc325aa84c13537bfbf98e189b575c9ca914b072c9511af420bfb6b"
+      },
+      {
+        "name": "Rblas.dll",
+        "bytes": "203776",
+        "sha256": "5b90017786f1e22e9735aa3c08385736705562b93b4e54409a563e0150cd889b"
+      },
+      {
+        "name": "Rlapack.dll",
+        "bytes": "2983936",
+        "sha256": "5c9a54c766ef5333ca9a31aaaf84fe0d37b38261718b3c0c1a29edb591d92d46"
+      },
+      {
+        "name": "Rscript.exe",
+        "bytes": "94720",
+        "sha256": "64c14887d5db9b3a5951d886cfdc85fa81077e6b01a7bb3effba88855b69ca2f"
+      }
+    ],
+    "matrix_lattice": {
+      "original": [
+        "1.7-5",
+        "0.22-9"
+      ],
+      "compatible": [
+        "1.7-6",
+        "0.23-1"
+      ]
+    }
+  },
+  "S33_clean_replay": {
+    "version": "3.11.9",
+    "platform": "Windows-10-10.0.26300-SP0",
+    "numpy": "1.26.4",
+    "scipy": "1.13.1",
+    "requests": "2.34.2",
+    "blas_lapack_dlls": {
+      "numpy.libs/libopenblas64__v0.3.23-293-gc2f4bdbb-gcc_10_3_0-2bde3a66a51006b2b53eb373ff767a3f.dll": "57b87772bf676b5c2d718c79dddc9f039d79ec3319fee1398cc305adff7b69e5",
+      "scipy.libs/libopenblas_v0.3.27--3aa239bc726cfb0bd8e5330d8d4c15c6.dll": "2ee0262b429173f6fa3569d7b242e696736996210b2152c73fbce0b5d61dcfc1"
+    },
+    "numerical_thread_controls": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1"
+    },
+    "original_runner_sha256": "7899fd444f5c32d9098ad9f49d07cc18d5f9e8f0c65748319bfd9bf6bddcdead",
+    "current_helper_sha256": "ca09cfce44e164c0c25c58d3ed950cf5ef9455d89933d1324e8cd6d328164512",
+    "imported_helper_sha256": "ca09cfce44e164c0c25c58d3ed950cf5ef9455d89933d1324e8cd6d328164512",
+    "helper_original_independent_hash": "Not recorded by historical scorer"
+  },
+  "S33_python_install_identities": {
+    "base_python_sha256": "5f7b89a612c9b8af1d6456cdfcd1dbe5ca630849e79aebced9bee9a6694952ec",
+    "python311_dll_sha256": "0817a2a657a24c0d5fbb60df56960f42fc66b3039d522ec952dab83e2d869364"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "schema": "braintrace.s33.act_minimal_replay.v1",
+  "source_protocol_sha256": "5cf34a87afc49e1f91988e8940effef37cb5ba1593b6247372079d86aa726573",
+  "roster": {
+    "file": "ACT_MINIMAL_ROSTER.csv",
+    "sha256": "2f02144606eef43a16a153cc83ca021fd22f62e24d9134b219903ef2ece5a3d0"
+  },
+  "background": {
+    "file": "FROZEN_RANK_BACKGROUND.csv",
+    "sha256": "e14bc6f10419ee654578e39b90d1f29bf6c03680646e833d962831eb167e8d02"
+  },
+  "model": {
+    "url": "https://raw.githubusercontent.com/wz7717/braintrace-web/9059a83c9d8c153982c75e6f5815fe932f89a9b4/human_fixed_assets/HUMAN_FIXED_ASSET_SET_v1/assets/science/human/models/final_RANK_FIXED.npz",
+    "sha256": "989b0c9342e300f37e3a94434a2b16d6b3caf79222eb692a9a8d4199d3a750ee"
+  },
+  "cohort": {
+    "specimens": 21,
+    "donors": 11
+  },
+  "truth_mapping": {
+    "HIP": "4219",
+    "TCx": "4132"
+  },
+  "class_order": [
+    {
+      "id": "4009",
+      "name": "Frontal cortex"
+    },
+    {
+      "id": "4132",
+      "name": "Temporal cortex"
+    },
+    {
+      "id": "4180",
+      "name": "Occipital cortex"
+    },
+    {
+      "id": "4219",
+      "name": "Hippocampus"
+    },
+    {
+      "id": "4275",
+      "name": "Putamen"
+    },
+    {
+      "id": "4391",
+      "name": "Thalamus"
+    },
+    {
+      "id": "4696",
+      "name": "Cerebellar cortex"
+    },
+    {
+      "id": "9001",
+      "name": "Substantia nigra"
+    },
+    {
+      "id": "9512",
+      "name": "Medulla"
+    }
+  ],
+  "rank_adapter": {
+    "input": "Allen public unadjusted per-specimen RSEM gene TPM; use only gene_id and TPM columns",
+    "file_header": [
+      "gene_id",
+      "transcript_id(s)",
+      "length",
+      "effective_length",
+      "expected_count",
+      "TPM",
+      "FPKM"
+    ],
+    "background_n": 16171,
+    "leave_out_124_source_coordinates_without_act_rows": true,
+    "act_lookup_substitution": {
+      "149351": "105378853"
+    },
+    "background_act_ids_ordered_lf_sha256": "50201e7dd8689efa25eecd52152e1fe6b54af97e30c0cf3e4b315af880f9d209",
+    "features_n": 200,
+    "feature_order": "Original stored selected_gene_ids; all 200 must map one-to-one.",
+    "rank": "Within each specimen, one-based ascending average rank for exact ties, including finite measured zeros. Percentile = (rank - 1) / 16170.",
+    "standardization": "(selected percentiles - stored mean) / stored scale",
+    "prediction": "Use original coef and intercept for nine logits; stable descending logit order, ties follow class order. Also save the original nine-class softmax scores."
+  },
+  "runtime": {
+    "python": "3.11.9",
+    "numpy": "1.26.4",
+    "scipy": "1.13.1",
+    "requests": "2.34.2"
+  }
+}

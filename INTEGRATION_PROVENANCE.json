@@ -1,0 +1,246 @@
+{
+  "added_exact": [
+    {
+      "source_archive": "BrainTrace_Public_Scope_Addendum_20261115_LOCAL.zip",
+      "source_member": "research/common/pearson_hierarchy.py",
+      "target": "analysis/research/common/pearson_hierarchy.py",
+      "sha256": "35f80c90e33df367b00c924fe2a5617432ae71f01c93d6dd1e0d96b60e7b38f9",
+      "bytes": 7680,
+      "scope": "S32",
+      "terms": "项目本人及共同作者有权的研究贡献按当前拟公开范围，继承片段保留适用 MIT 声明"
+    },
+    {
+      "source_archive": "BrainTrace_Public_Scope_Addendum_20261115_LOCAL.zip",
+      "source_member": "research/external/_config.py",
+      "target": "analysis/research/external/_config.py",
+      "sha256": "d5843535075ea2baab56e18d5279a97d85b3ec0534bd51d118a869fa7e5fb888",
+      "bytes": 586,
+      "scope": "S32",
+      "terms": "项目本人及共同作者有权的研究贡献按当前拟公开范围，继承片段保留适用 MIT 声明"
+    },
+    {
+      "source_archive": "BrainTrace_Public_Scope_Addendum_20261115_LOCAL.zip",
+      "source_member": "research/external/shared_head_external.py",
+      "target": "analysis/research/external/shared_head_external.py",
+      "sha256": "e7ecc4205806e3a9a30568e9bc3fa12e6c76e917fa5fd974a024ce5e81146f84",
+      "bytes": 17876,
+      "scope": "S32",
+      "terms": "项目本人及共同作者有权的研究贡献按当前拟公开范围，继承片段保留适用 MIT 声明"
+    },
+    {
+      "source_archive": "BrainTrace_Public_Scope_Addendum_20261115_LOCAL.zip",
+      "source_member": "research/external/shared_head_psychencode.py",
+      "target": "analysis/research/external/shared_head_psychencode.py",
+      "sha256": "2dfa3ee4a2181ed9b418dc9aaa2b713bde0c43d4426ce0ced9857d2834612d9e",
+      "bytes": 7372,
+      "scope": "S32",
+      "terms": "项目本人及共同作者有权的研究贡献按当前拟公开范围，继承片段保留适用 MIT 声明"
+    },
+    {
+      "source_archive": "BrainTrace_Public_Scope_Addendum_20261115_LOCAL.zip",
+      "source_member": "research/human/run_comparison.py",
+      "target": "analysis/research/human/run_comparison.py",
+      "sha256": "b6c1a7678fa1c57158c0e1a5f9df8b01d44fc569cc04608973da1b395c571e57",
+      "bytes": 11123,
+      "scope": "S31",
+      "terms": "项目本人及共同作者有权的研究贡献按当前拟公开范围，继承片段保留适用 MIT 声明"
+    },
+    {
+      "source_archive": "BrainTrace_Public_Scope_Addendum_20261115_LOCAL.zip",
+      "source_member": "research/human/score_singler.R",
+      "target": "analysis/research/human/score_singler.R",
+      "sha256": "20d9043a097f622b60243186f7183e5f8e17180b4013d72251880afc1e9cc080",
+      "bytes": 2451,
+      "scope": "S31",
+      "terms": "项目本人及共同作者有权的研究贡献按当前拟公开范围，继承片段保留适用 MIT 声明"
+    },
+    {
+      "source_archive": "BrainTrace_Public_Scope_Addendum_20261115_LOCAL.zip",
+      "source_member": "research/human/ukbec_rank_rf500_diagnostic.py",
+      "target": "analysis/research/human/ukbec_rank_rf500_diagnostic.py",
+      "sha256": "f4c431272caf45509d441f4642caa045ca1d12c6f8fe2cf45b69eaaded79cc2f",
+      "bytes": 5069,
+      "scope": "S31",
+      "terms": "项目本人及共同作者有权的研究贡献按当前拟公开范围，继承片段保留适用 MIT 声明"
+    },
+    {
+      "source_archive": "BrainTrace_Public_Scope_Addendum_20261115_LOCAL.zip",
+      "source_member": "research/internal/run_fixed_gate.py",
+      "target": "analysis/research/internal/run_fixed_gate.py",
+      "sha256": "0a4ddcb022c863dd254adaee350f1719ab750af89d2eb78a9eacf49a9e6720c5",
+      "bytes": 13555,
+      "scope": "S32",
+      "terms": "项目本人及共同作者有权的研究贡献按当前拟公开范围，继承片段保留适用 MIT 声明"
+    },
+    {
+      "source_archive": "BrainTrace_Public_Scope_Addendum_20261115_LOCAL.zip",
+      "source_member": "results/B17_SUMMARY.csv",
+      "target": "analysis/results/B17_SUMMARY.csv",
+      "sha256": "b65257dce58adcbbe9e489390382779213a0cfdae878456190827b73466c8a10",
+      "bytes": 1360,
+      "scope": "Table 10 成人列、Methods S16 与 Table S49A/B",
+      "terms": "项目非逐标本汇总。旧 MIT 针对源码，源 GEO 条款另列"
+    },
+    {
+      "source_archive": "BrainTrace_Public_Scope_Addendum2_20261115_LOCAL.zip",
+      "source_member": "act/ACT_REPLAY_CONFIG.json",
+      "target": "analysis/act/ACT_REPLAY_CONFIG.json",
+      "sha256": "bcd0ee82dc71b8ab8e7ab095b03b9efe87cdc131ce69f429100abec26d83278d",
+      "bytes": 2723,
+      "scope": "S33 / Table S50",
+      "terms": "项目代码、基因轴、区域汇总或历史回执的相应范围。下游数据遵照原来源"
+    },
+    {
+      "source_archive": "BrainTrace_Public_Scope_Addendum2_20261115_LOCAL.zip",
+      "source_member": "act/compare_frozen_s33.py",
+      "target": "analysis/act/compare_frozen_s33.py",
+      "sha256": "d2139602341adfaf77e25496961ce24d3cc6aaf02a05072254440ffcc9d8786d",
+      "bytes": 11226,
+      "scope": "S33 / Table S50",
+      "terms": "项目代码、基因轴、区域汇总或历史回执的相应范围。下游数据遵照原来源"
+    },
+    {
+      "source_archive": "BrainTrace_Public_Scope_Addendum2_20261115_LOCAL.zip",
+      "source_member": "act/FROZEN_RANK_BACKGROUND.csv",
+      "target": "analysis/act/FROZEN_RANK_BACKGROUND.csv",
+      "sha256": "e14bc6f10419ee654578e39b90d1f29bf6c03680646e833d962831eb167e8d02",
+      "bytes": 206397,
+      "scope": "S33 / Table S50",
+      "terms": "项目代码、基因轴、区域汇总或历史回执的相应范围。下游数据遵照原来源"
+    },
+    {
+      "source_archive": "BrainTrace_Public_Scope_Addendum2_20261115_LOCAL.zip",
+      "source_member": "act/PRIOR_REPLAY_CHECK.json",
+      "target": "analysis/act/PRIOR_REPLAY_CHECK.json",
+      "sha256": "888282db28fa7a6b9c5ce6bbab4fe5b9bca7f4f428d4c9202068dd93150d2912",
+      "bytes": 2195,
+      "scope": "S33 / Table S50",
+      "terms": "项目代码、基因轴、区域汇总或历史回执的相应范围。下游数据遵照原来源"
+    },
+    {
+      "source_archive": "BrainTrace_Public_Scope_Addendum2_20261115_LOCAL.zip",
+      "source_member": "act/replay_s33.py",
+      "target": "analysis/act/replay_s33.py",
+      "sha256": "a973589b9fb8f8fd01031c6446b1c6e574e8839678ee6b33dddab7666512cc1a",
+      "bytes": 15737,
+      "scope": "S33 / Table S50",
+      "terms": "项目代码、基因轴、区域汇总或历史回执的相应范围。下游数据遵照原来源"
+    },
+    {
+      "source_archive": "BrainTrace_Public_Scope_Addendum2_20261115_LOCAL.zip",
+      "source_member": "act/saved_results/BY_REGION.csv",
+      "target": "analysis/act/saved_results/BY_REGION.csv",
+      "sha256": "fb72cddde0bc0d6152827ae15b6a12344c62898da6086b6ca0f3c61cd43de4ca",
+      "bytes": 213,
+      "scope": "S33 / Table S50",
+      "terms": "项目代码、基因轴、区域汇总或历史回执的相应范围。下游数据遵照原来源"
+    },
+    {
+      "source_archive": "BrainTrace_Public_Scope_Addendum2_20261115_LOCAL.zip",
+      "source_member": "act/saved_results/CONFUSION.csv",
+      "target": "analysis/act/saved_results/CONFUSION.csv",
+      "sha256": "2c04fd6f2eea438160051138ffd79ecef58805381eaf130997482ef95b964d01",
+      "bytes": 148,
+      "scope": "S33 / Table S50",
+      "terms": "项目代码、基因轴、区域汇总或历史回执的相应范围。下游数据遵照原来源"
+    },
+    {
+      "source_archive": "BrainTrace_Public_Scope_Addendum2_20261115_LOCAL.zip",
+      "source_member": "research/external/ahba_inputs.py",
+      "target": "analysis/research/external/ahba_inputs.py",
+      "sha256": "08b7ef0bd743cde47836621e272b1c998ae18d4248dcc1b2d53b8e7d3c4cb1cf",
+      "bytes": 17234,
+      "scope": "S32 AHBA",
+      "terms": "项目本人及共同作者有权的研究贡献按当前拟公开范围，继承片段保留适用 MIT 声明"
+    },
+    {
+      "source_archive": "BrainTrace_Public_Scope_Addendum2_20261115_LOCAL.zip",
+      "source_member": "research/external/matched_ahba_network.py",
+      "target": "analysis/research/external/matched_ahba_network.py",
+      "sha256": "3fbe4dd95eabb25c0dda9070ae7855a9a286707a110695fe6d93a6625b9b164c",
+      "bytes": 10042,
+      "scope": "S32 AHBA",
+      "terms": "项目本人及共同作者有权的研究贡献按当前拟公开范围，继承片段保留适用 MIT 声明"
+    },
+    {
+      "source_archive": "BrainTrace_Public_Scope_Addendum2_20261115_LOCAL.zip",
+      "source_member": "research/external/stage_ahba_maps.py",
+      "target": "analysis/research/external/stage_ahba_maps.py",
+      "sha256": "e5661571988084612a8848a51782ecea43ed023d9ef452836aa47b5c38f6f86f",
+      "bytes": 1663,
+      "scope": "S32 AHBA",
+      "terms": "项目本人及共同作者有权的研究贡献按当前拟公开范围，继承片段保留适用 MIT 声明"
+    }
+  ],
+  "reused_exact": [
+    {
+      "source_archive": "BrainTrace_Public_Scope_Addendum_20261115_LOCAL.zip",
+      "source_member": "licenses/B17_MIT.txt",
+      "target": "analysis/code/b17/LICENSE",
+      "sha256": "feacfa8956150eaa356a7668a06e27119389b3bc725b30a54cad521eabfff1ab",
+      "bytes": 1084,
+      "scope": "许可或取件元数据",
+      "terms": "B17 既有 MIT 历史授权。原 notice 字节保留，限相应源码"
+    },
+    {
+      "source_archive": "BrainTrace_Public_Scope_Addendum_20261115_LOCAL.zip",
+      "source_member": "licenses/EXISTING_SCIENCE_MIT.txt",
+      "target": "analysis/licenses/BrainTrace_science_MIT.txt",
+      "sha256": "feacfa8956150eaa356a7668a06e27119389b3bc725b30a54cad521eabfff1ab",
+      "bytes": 1084,
+      "scope": "许可或取件元数据",
+      "terms": "保留相同 MIT 原 notice，按代码来源指出适用范围"
+    },
+    {
+      "source_archive": "BrainTrace_Public_Scope_Addendum_20261115_LOCAL.zip",
+      "source_member": "sources/HUMAN_FIXED_VERSION_LINKS.csv",
+      "target": "software/EXISTING_HUMAN_INPUT_REFERENCES.csv",
+      "sha256": "dc643f69dc06497e005beed7c558985a3ce629f2701f75aca4add8c8e84e1364",
+      "bytes": 1804,
+      "scope": "许可或取件元数据",
+      "terms": "五条固定取件链接逐行且逐字节相同"
+    },
+    {
+      "source_archive": "BrainTrace_Public_Scope_Addendum2_20261115_LOCAL.zip",
+      "source_member": "act/ACT_ENV_REQUIREMENTS.txt",
+      "target": "analysis/environment/s33-windows-py311.lock",
+      "sha256": "e2750fa24ca42521bbe527c05a44dac12d19e81ea6cd9a815e51a5d691147ca0",
+      "bytes": 772,
+      "scope": "许可或取件元数据",
+      "terms": "8 个 Windows 公共 wheel 版本与 SHA 锁逐字节相同"
+    },
+    {
+      "source_archive": "BrainTrace_Public_Scope_Addendum2_20261115_LOCAL.zip",
+      "source_member": "act/EXISTING_SCIENCE_MIT.txt",
+      "target": "analysis/licenses/BrainTrace_science_MIT.txt",
+      "sha256": "feacfa8956150eaa356a7668a06e27119389b3bc725b30a54cad521eabfff1ab",
+      "bytes": 1084,
+      "scope": "许可或取件元数据",
+      "terms": "绑定沿用的 MIT helper/来源，新增 ACT 路径按各自权属"
+    },
+    {
+      "source_archive": "BrainTrace_Public_Scope_Addendum2_20261115_LOCAL.zip",
+      "source_member": "research/external/AHBA_SOURCE_REPOSITORY_MIT.txt",
+      "target": "analysis/licenses/BrainTrace_science_MIT.txt",
+      "sha256": "feacfa8956150eaa356a7668a06e27119389b3bc725b30a54cad521eabfff1ab",
+      "bytes": 1084,
+      "scope": "许可或取件元数据",
+      "terms": "保留共享 MIT 原 notice，附 AHBA 函数来源映射"
+    }
+  ],
+  "basis_candidate": {
+    "archive": "BrainTrace_R8_Max_Public_Candidate_20261115_LOCAL.zip",
+    "sha256": "2e44231c00cd2739d5d61e3e42c20914546c4a6bfd61963213c08902c5677294"
+  },
+  "source_addenda": [
+    {
+      "archive": "BrainTrace_Public_Scope_Addendum_20261115_LOCAL.zip",
+      "sha256": "bdb91d9653cfea693432a16fb761ea4a1d35fe702567a6b981b7f0c4e047d594"
+    },
+    {
+      "archive": "BrainTrace_Public_Scope_Addendum2_20261115_LOCAL.zip",
+      "sha256": "d01ac8d22e36b523083eb80ab0afd0a3fb6042646175a95e154415a1542d3f3a"
+    }
+  ],
+  "act_linkable_objects_retained_author_side": 3
+}

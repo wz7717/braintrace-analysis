@@ -1,0 +1,13 @@
+method,region,samples,donors,Top1
+BrainTrace_RANK,Brain - Frontal Cortex (BA9),269,269.0,0.9368029739776952
+BrainTrace_RANK,Brain - Hippocampus,255,255.0,0.4392156862745098
+BrainTrace_RANK,Brain - Putamen (basal ganglia),254,254.0,0.984251968503937
+BrainTrace_RANK,Brain - Substantia nigra,183,183.0,0.907103825136612
+Pearson_centroid,Brain - Frontal Cortex (BA9),269,269.0,0.5427509293680297
+Pearson_centroid,Brain - Hippocampus,255,255.0,0.43137254901960786
+Pearson_centroid,Brain - Putamen (basal ganglia),254,254.0,0.8858267716535433
+Pearson_centroid,Brain - Substantia nigra,183,183.0,0.33879781420765026
+RF500,Brain - Frontal Cortex (BA9),269,269.0,0.26394052044609667
+RF500,Brain - Hippocampus,255,255.0,0.8745098039215686
+RF500,Brain - Putamen (basal ganglia),254,254.0,0.9488188976377953
+RF500,Brain - Substantia nigra,183,183.0,0.7486338797814208

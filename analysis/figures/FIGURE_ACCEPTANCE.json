@@ -1,0 +1,252 @@
+{
+  "comparison": "Independent staged plotting scripts against live Editorial Concise Word media, one per figure.",
+  "main_sha256": "97c0bf5dee9993090c7ae5fa74af4fd497ba5b3a3478f1494ff7a247bfd124dd",
+  "environments": {
+    "figure_1": {
+      "python": "3.12.14",
+      "package_versions": {
+        "numpy": "2.3.5",
+        "pandas": "3.0.1",
+        "pillow": "13.0.0",
+        "reportlab": "4.4.9",
+        "packaging": "26.3",
+        "python-dateutil": "4.0.0",
+        "tzdata": "2026.6"
+      },
+      "poppler": "pdftoppm version 26.07.0",
+      "font_sha256": {
+        "arial.ttf": "edfbd22a3d088fc2f5d7c79b8c9c732df6dc878a60f0a80be0f92a3c7a634404",
+        "arialbd.ttf": "4d59199834e7439c67ea4949407639961060b21b173833f566eb60ac6fd8f5af"
+      }
+    },
+    "figures_2_4": {
+      "python": "3.11.9",
+      "package_versions": {
+        "numpy": "1.26.4",
+        "pandas": "2.2.3",
+        "matplotlib": "3.10.7",
+        "pillow": "12.3.0",
+        "contourpy": "1.3.3",
+        "cycler": "0.12.1",
+        "fonttools": "4.63.0",
+        "kiwisolver": "1.5.0",
+        "packaging": "26.3",
+        "pyparsing": "3.3.2",
+        "python-dateutil": "2.9.0.post0",
+        "tzdata": "2026.3",
+        "pytz": "2026.3.post1",
+        "six": "1.17.0"
+      }
+    },
+    "figures_5_7": {
+      "python": "3.12.14",
+      "package_versions": {
+        "numpy": "2.3.5",
+        "pandas": "3.0.1",
+        "matplotlib": "3.11.2",
+        "pillow": "13.0.0",
+        "reportlab": "4.4.9",
+        "contourpy": "1.4.0",
+        "cycler": "0.12.1",
+        "fonttools": "4.68.0",
+        "kiwisolver": "1.5.1",
+        "packaging": "26.3",
+        "pyparsing": "3.3.3",
+        "python-dateutil": "4.0.0",
+        "tzdata": "2026.6"
+      }
+    }
+  },
+  "figures": [
+    {
+      "figure": 1,
+      "script": "plot_figure_1.py",
+      "output": "Figure_1.png",
+      "manuscript_image": "word/media/image9.png",
+      "reference_sha256": "675aea5ed05e787a1df23bd2c2b31eba6a79e54e7ea19d1096af7bc8c435bd3b",
+      "exit_code": 0,
+      "generated_sha256": "675aea5ed05e787a1df23bd2c2b31eba6a79e54e7ea19d1096af7bc8c435bd3b",
+      "byte_identical": true,
+      "pixel_identical": true,
+      "reference_dimensions": [
+        6000,
+        3375
+      ],
+      "generated_dimensions": [
+        6000,
+        3375
+      ],
+      "changed_pixels": 0,
+      "changed_bbox": null,
+      "render_marker": "pdftoppm version 26.07.0",
+      "verified_input_files": {
+        "plot_figure_1.py": "4984744bfd065599b889a63a349919f368ffcf87539aed9e218368e6aa72064e"
+      }
+    },
+    {
+      "figure": 2,
+      "script": "plot_figure_2.py",
+      "output": "Figure_2.png",
+      "manuscript_image": "word/media/image8.png",
+      "reference_sha256": "c24c07a59ea242ef2b8c74a7f6f0501775ac578207257e5ef80da6dffde5adcf",
+      "exit_code": 0,
+      "generated_sha256": "c24c07a59ea242ef2b8c74a7f6f0501775ac578207257e5ef80da6dffde5adcf",
+      "byte_identical": true,
+      "pixel_identical": true,
+      "reference_dimensions": [
+        4950,
+        1860
+      ],
+      "generated_dimensions": [
+        4950,
+        1860
+      ],
+      "changed_pixels": 0,
+      "changed_bbox": null,
+      "render_marker": "Matplotlib version3.10.7, https://matplotlib.org/",
+      "verified_input_files": {
+        "plot_figure_2.py": "43886427e1010446aaf1c5f876ae7fa6606af0eeb648510117c084633743d303",
+        "plot_common.py": "dd00664dc729b91e9e77d9bdc82be458155dbcbba9513e1c01421819ed6700de",
+        "inputs/figure_2/RAW_CLASS_RECALL.csv": "4c20ceb7849ebe5ff50da5c888be8095a8cd585a72746e716ea1bcbf00905587",
+        "inputs/figure_2/RAW_CONFUSION_COUNTS.csv": "5da80897a86e4234e2a462f0b5502a523e470ca2116bd85f3eda45e5c8739800"
+      }
+    },
+    {
+      "figure": 3,
+      "script": "plot_figure_3.py",
+      "output": "Figure_3.png",
+      "manuscript_image": "word/media/image3.png",
+      "reference_sha256": "8b8d1cc01dcbbd3e6c5a75615c58fea69767d2fe455ca8b6a5afa3e0255cbbe0",
+      "exit_code": 0,
+      "generated_sha256": "8b8d1cc01dcbbd3e6c5a75615c58fea69767d2fe455ca8b6a5afa3e0255cbbe0",
+      "byte_identical": true,
+      "pixel_identical": true,
+      "reference_dimensions": [
+        3060,
+        1213
+      ],
+      "generated_dimensions": [
+        3060,
+        1213
+      ],
+      "changed_pixels": 0,
+      "changed_bbox": null,
+      "render_marker": "Matplotlib version3.10.7, https://matplotlib.org/",
+      "verified_input_files": {
+        "plot_figure_3.py": "c4bb0a8ffe201160ebf5851404b6fb17d05a2fdcdbfcac8244b10d75a35a16b0",
+        "plot_common.py": "dd00664dc729b91e9e77d9bdc82be458155dbcbba9513e1c01421819ed6700de",
+        "inputs/figure_3/GTEX_PAIRED_CONTRASTS.csv": "9d19ac1ae84dd15e89929bb72c095af24306b5e583defad07a994de76b05d27e",
+        "inputs/figure_3/GTEX_REGIONAL_RECALL.csv": "0d8e105dc2a565e6eb5968535ef69428c5c493eb0bf8933b09f2b9dc5da0a25e"
+      }
+    },
+    {
+      "figure": 4,
+      "script": "plot_figure_4.py",
+      "output": "Figure_4.png",
+      "manuscript_image": "word/media/image4.png",
+      "reference_sha256": "d4fd94cf3dfc7b7b8d6a261ec91d8fafcf69d3eb2ebe2f64ac8cb1275352fb31",
+      "exit_code": 0,
+      "generated_sha256": "d4fd94cf3dfc7b7b8d6a261ec91d8fafcf69d3eb2ebe2f64ac8cb1275352fb31",
+      "byte_identical": true,
+      "pixel_identical": true,
+      "reference_dimensions": [
+        1921,
+        892
+      ],
+      "generated_dimensions": [
+        1921,
+        892
+      ],
+      "changed_pixels": 0,
+      "changed_bbox": null,
+      "render_marker": "Matplotlib version3.10.7, https://matplotlib.org/",
+      "verified_input_files": {
+        "plot_figure_4.py": "0778956cf4212edd9c2eec69be0bcf140728dddd586a2f7573700741015f5f9b",
+        "plot_common.py": "dd00664dc729b91e9e77d9bdc82be458155dbcbba9513e1c01421819ed6700de",
+        "inputs/figure_4/HUMAN_TOP1_INTERSECTIONS.csv": "2cda001a99b1c24742cb45fbd352a12baed90201407915dd943ca93a04ed7273"
+      }
+    },
+    {
+      "figure": 5,
+      "script": "plot_figure_5.py",
+      "output": "Figure_5.png",
+      "manuscript_image": "word/media/image5.png",
+      "reference_sha256": "cf24c6fb731497d9c94f49c60d3e72f777757978cbbe1d9024cace6f46360b8d",
+      "exit_code": 0,
+      "generated_sha256": "cf24c6fb731497d9c94f49c60d3e72f777757978cbbe1d9024cace6f46360b8d",
+      "byte_identical": true,
+      "pixel_identical": true,
+      "reference_dimensions": [
+        4114,
+        1654
+      ],
+      "generated_dimensions": [
+        4114,
+        1654
+      ],
+      "changed_pixels": 0,
+      "changed_bbox": null,
+      "render_marker": "Matplotlib version3.11.2, https://matplotlib.org/",
+      "verified_input_files": {
+        "plot_figure_5.py": "6aa578ce8d8689dff97ec9cb50cd03b4ccab55f99bf8a667f0bcca552d9ae192",
+        "plot_common.py": "dd00664dc729b91e9e77d9bdc82be458155dbcbba9513e1c01421819ed6700de",
+        "inputs/figure_5/NETWORK_PAIRED_CONTRASTS.csv": "19998b890a9aa1f3c1e1fb0c1bce93427d146142f1a5975f665ee95f9cd5b024"
+      }
+    },
+    {
+      "figure": 6,
+      "script": "plot_figure_6.py",
+      "output": "Figure_6.png",
+      "manuscript_image": "word/media/image6.png",
+      "reference_sha256": "b82f15b5b3b2d4db8c3e71736c10e3d9ae1601223b5360963b82eeba327b956b",
+      "exit_code": 0,
+      "generated_sha256": "b82f15b5b3b2d4db8c3e71736c10e3d9ae1601223b5360963b82eeba327b956b",
+      "byte_identical": true,
+      "pixel_identical": true,
+      "reference_dimensions": [
+        4050,
+        2344
+      ],
+      "generated_dimensions": [
+        4050,
+        2344
+      ],
+      "changed_pixels": 0,
+      "changed_bbox": null,
+      "render_marker": "Matplotlib version3.11.2, https://matplotlib.org/",
+      "verified_input_files": {
+        "plot_figure_6.py": "7fe429b15db445390aeb9ad31e972fffe3c96b773b429112717e0d55a35bd318",
+        "plot_common.py": "dd00664dc729b91e9e77d9bdc82be458155dbcbba9513e1c01421819ed6700de",
+        "inputs/figure_6/NETWORK_CLASS_RECALL.csv": "7e86b38b7845cee1647cc0ccd0df657305b4f290f4300941b0ed1c633cd77cf2"
+      }
+    },
+    {
+      "figure": 7,
+      "script": "plot_figure_7.py",
+      "output": "Figure_7.png",
+      "manuscript_image": "word/media/image10.png",
+      "reference_sha256": "58c4062cda78c97ef33543495a501a36db3d9110b0513b4c0f15c2e22a29f3cb",
+      "exit_code": 0,
+      "generated_sha256": "58c4062cda78c97ef33543495a501a36db3d9110b0513b4c0f15c2e22a29f3cb",
+      "byte_identical": true,
+      "pixel_identical": true,
+      "reference_dimensions": [
+        3060,
+        1545
+      ],
+      "generated_dimensions": [
+        3060,
+        1545
+      ],
+      "changed_pixels": 0,
+      "changed_bbox": null,
+      "render_marker": "Matplotlib version3.11.2, https://matplotlib.org/",
+      "verified_input_files": {
+        "plot_figure_7.py": "cf03e20bc13d169fd2f4b3149ea6fb037287b5c21848506ac5b78039a52ad03f",
+        "plot_common.py": "dd00664dc729b91e9e77d9bdc82be458155dbcbba9513e1c01421819ed6700de",
+        "inputs/figure_7/EXTERNAL_THREE_TIER.csv": "67483ecc36c8b8a1fcc8a92a84ef7dd4fea18f001f39ac08e0d6c67f77dc9c81",
+        "inputs/figure_7/SOURCE_THREE_TIER.csv": "7f8a76b63f3c2c64a8179ad645627ca25c1d2bf4e6c0107759effc0fcab5da7b"
+      }
+    }
+  ]
+}

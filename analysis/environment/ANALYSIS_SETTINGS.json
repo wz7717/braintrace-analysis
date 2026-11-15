@@ -1,0 +1,82 @@
+{
+  "paper_edition": "Editorial Concise, 2026-11-15",
+  "scope": "Recorded settings. Integrated code entry points are indexed separately. Exact execution configuration and frozen inputs remain route-specific.",
+  "S31_SingleR": {
+    "scope": "Fixed-input late comparator and subsequent compatible replay",
+    "parameters": {
+      "SingleR": "2.14.2",
+      "genes": "de",
+      "de.method": "classic",
+      "de.n": null,
+      "aggr.ref": false,
+      "check.missing": true,
+      "approximate": false,
+      "quantile": 0.8,
+      "fine.tune": false,
+      "prune": false,
+      "num.threads": 1,
+      "rank_tie": "exact score then lexicographic class ID"
+    },
+    "queries": 1856,
+    "ordered_markers": 200,
+    "class_scores": 16704,
+    "last_compatible_replay": {
+      "marker_order_match": 200,
+      "matching_scores": 16704,
+      "matching_rank_rows": 1856,
+      "technical_failures": 0
+    },
+    "original_R": "4.6.1",
+    "compatible_R": "4.6.2 UCRT",
+    "SingleR": "2.14.2"
+  },
+  "S31_UKBEC_RF500": {
+    "start": "Frozen five-fold predictions",
+    "recorded_predictions": 1083
+  },
+  "S32": {
+    "python": "3.11.9",
+    "numpy": "1.26.4",
+    "Bo_records": 819,
+    "Bo_outer_folds": 9,
+    "lower_GEO_comparable": 675,
+    "lower_GEO_unscored": 268,
+    "PsychENCODE_comparable": 34,
+    "PsychENCODE_unscored": 43,
+    "AHBA_technical_profiles": 231,
+    "AHBA_truth_eligible": 223,
+    "AHBA_posttransform_check": "evidence/S32_AHBA_POSTTRANSFORM_CHECK.json"
+  },
+  "S33": {
+    "model": "Frozen human RANK200, all 9 classes",
+    "rank_background_features": 16171,
+    "donors": 11,
+    "specimens": 21,
+    "primary": "Donor-equal Top-1",
+    "runtime": {
+      "python": "3.11.9",
+      "numpy": "1.26.4",
+      "scipy": "1.13.1",
+      "requests": "2.34.2"
+    },
+    "numeric_threads": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1"
+    }
+  },
+  "B17": {
+    "source": "GSE25219 frozen final-PLM adult follow-up",
+    "specimens": 46,
+    "donors": 15,
+    "methods": [
+      "Pearson",
+      "SingleR"
+    ],
+    "original_R": "4.6.1",
+    "SingleR": "2.14.2",
+    "numerical_threads": 1,
+    "timing": "Fixed comparator analysis after the original BrainTrace results were known and before comparator predictions"
+  }
+}

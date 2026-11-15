@@ -1,0 +1,3 @@
+source,release,bytes,sha256,url,citation_policy,terms,package_path
+H0351_2001_rnaseq.zip,AHBA RNA-seq as supplied by Allen,23127642,fe0cd728f642bcb07de073a7d0512448c01960a8efb6c082dd7ea5620cc61a71,https://human.brain-map.org/api/v2/well_known_file_download/278447594,https://alleninstitute.org/legal/citation-policy,https://alleninstitute.org/legal/terms-of-use,sources/allen_ahba/H0351_2001_rnaseq.zip
+H0351_2002_rnaseq.zip,AHBA RNA-seq as supplied by Allen,23525019,e2f103e12e0e00f0db731661d478f1739cbb5f6998f715443ca1c1bda54f628b,https://human.brain-map.org/api/v2/well_known_file_download/278448166,https://alleninstitute.org/legal/citation-policy,https://alleninstitute.org/legal/terms-of-use,sources/allen_ahba/H0351_2002_rnaseq.zip

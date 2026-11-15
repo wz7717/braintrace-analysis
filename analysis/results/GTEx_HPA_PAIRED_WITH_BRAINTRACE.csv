@@ -1,0 +1,40 @@
+dataset,stratum,metric,samples,donors,SingleR_minus_BrainTrace,both_hit,SingleR_only,BrainTrace_only,both_miss
+GTEx,primary_four_regions,Top1,961,345.0,-0.18357487922705315,573.0,27.0,207.0,154.0
+GTEx,primary_four_regions,Top3,961,345.0,0.014009661835748791,846.0,37.0,20.0,58.0
+GTEx,primary_four_regions,MRR,961,345.0,-0.09126255655241163,,,,
+GTEx,cerebellar_tissues_descriptive,Top1,543,321.0,0.0,543.0,0.0,0.0,0.0
+GTEx,cerebellar_tissues_descriptive,Top3,543,321.0,0.0,543.0,0.0,0.0,0.0
+GTEx,cerebellar_tissues_descriptive,MRR,543,321.0,0.0,,,,
+GTEx,all_six_tissues_descriptive,Top1,1504,367.0,-0.11657584014532243,1116.0,27.0,207.0,154.0
+GTEx,all_six_tissues_descriptive,Top3,1504,367.0,0.005858310626702998,1389.0,37.0,20.0,58.0
+GTEx,all_six_tissues_descriptive,MRR,1504,367.0,-0.058389937718956786,,,,
+GTEx,tissue_Brain - Cerebellar Hemisphere,Top1,277,277.0,0.0,277.0,0.0,0.0,0.0
+GTEx,tissue_Brain - Cerebellar Hemisphere,Top3,277,277.0,0.0,277.0,0.0,0.0,0.0
+GTEx,tissue_Brain - Cerebellar Hemisphere,MRR,277,277.0,0.0,,,,
+GTEx,tissue_Brain - Cerebellum,Top1,266,266.0,0.0,266.0,0.0,0.0,0.0
+GTEx,tissue_Brain - Cerebellum,Top3,266,266.0,0.0,266.0,0.0,0.0,0.0
+GTEx,tissue_Brain - Cerebellum,MRR,266,266.0,0.0,,,,
+GTEx,tissue_Brain - Frontal Cortex (BA9),Top1,269,269.0,-0.3680297397769517,151.0,2.0,101.0,15.0
+GTEx,tissue_Brain - Frontal Cortex (BA9),Top3,269,269.0,-0.01486988847583643,265.0,0.0,4.0,0.0
+GTEx,tissue_Brain - Frontal Cortex (BA9),MRR,269,269.0,-0.18821915383253673,,,,
+GTEx,tissue_Brain - Hippocampus,Top1,255,255.0,0.0784313725490196,107.0,25.0,5.0,118.0
+GTEx,tissue_Brain - Hippocampus,Top3,255,255.0,0.13725490196078433,160.0,37.0,2.0,56.0
+GTEx,tissue_Brain - Hippocampus,MRR,255,255.0,0.09356987239340181,,,,
+GTEx,tissue_Brain - Putamen (basal ganglia),Top1,254,254.0,-0.08661417322834646,228.0,0.0,22.0,4.0
+GTEx,tissue_Brain - Putamen (basal ganglia),Top3,254,254.0,-0.047244094488188976,242.0,0.0,12.0,0.0
+GTEx,tissue_Brain - Putamen (basal ganglia),MRR,254,254.0,-0.055183727034120736,,,,
+GTEx,tissue_Brain - Substantia nigra,Top1,183,183.0,-0.43169398907103823,87.0,0.0,79.0,17.0
+GTEx,tissue_Brain - Substantia nigra,Top3,183,183.0,-0.01092896174863388,179.0,0.0,2.0,2.0
+GTEx,tissue_Brain - Substantia nigra,MRR,183,183.0,-0.2682604735883425,,,,
+HPA,supplementary_subregions,Top1,316,,-0.056962025316455694,201.0,8.0,26.0,81.0
+HPA,supplementary_subregions,Top3,316,,0.10759493670886076,256.0,45.0,11.0,4.0
+HPA,supplementary_subregions,MRR,316,,-0.022890295358649792,,,,
+HPA,primary_named_regions,Top1,36,,-0.05555555555555555,34.0,0.0,2.0,0.0
+HPA,primary_named_regions,Top3,36,,0.0,36.0,0.0,0.0,0.0
+HPA,primary_named_regions,MRR,36,,-0.03240740740740741,,,,
+HPA,combined_descriptive,Top1,352,,-0.056818181818181816,235.0,8.0,28.0,81.0
+HPA,combined_descriptive,Top3,352,,0.09659090909090909,292.0,45.0,11.0,4.0
+HPA,combined_descriptive,MRR,352,,-0.023863636363636368,,,,
+HPA,provisional_frontal_parent,Top1,55,,-0.03636363636363636,0.0,0.0,2.0,53.0
+HPA,provisional_frontal_parent,Top3,55,,0.8181818181818182,9.0,45.0,0.0,1.0
+HPA,provisional_frontal_parent,MRR,55,,0.04484848484848486,,,,

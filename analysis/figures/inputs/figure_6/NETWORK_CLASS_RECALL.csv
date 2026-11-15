@@ -1,0 +1,81 @@
+cohort,route,truth,samples,donors,estimable,Top1_hits,pooled_Top1
+GSE128537,baseline,Cingulate gyrus,8,8,True,0,0.0
+GSE128537,baseline,Frontal (agranular frontal motor areas),16,8,True,0,0.0
+GSE128537,baseline,Hippocampal formation,24,8,True,24,1.0
+GSE128537,baseline,Lateral Prefrontal Cortex,0,0,False,0,
+GSE128537,baseline,Occipital/Temporal,24,8,True,22,0.9166666666666666
+GSE128537,baseline,Operculum/Insula,8,8,True,3,0.375
+GSE128537,baseline,Orbitomedial Prefrontal Cortex (OMPFC),16,8,True,0,0.0
+GSE128537,baseline,"Parietal, and Parieto-occipital region",40,8,True,40,1.0
+GSE128537,baseline,Subcortical,48,8,True,40,0.8333333333333334
+GSE128537,baseline,Temporal,24,8,True,0,0.0
+GSE128537,floor_clip,Cingulate gyrus,8,8,True,0,0.0
+GSE128537,floor_clip,Frontal (agranular frontal motor areas),16,8,True,0,0.0
+GSE128537,floor_clip,Hippocampal formation,24,8,True,24,1.0
+GSE128537,floor_clip,Lateral Prefrontal Cortex,0,0,False,0,
+GSE128537,floor_clip,Occipital/Temporal,24,8,True,23,0.9583333333333334
+GSE128537,floor_clip,Operculum/Insula,8,8,True,3,0.375
+GSE128537,floor_clip,Orbitomedial Prefrontal Cortex (OMPFC),16,8,True,0,0.0
+GSE128537,floor_clip,"Parietal, and Parieto-occipital region",40,8,True,40,1.0
+GSE128537,floor_clip,Subcortical,48,8,True,42,0.875
+GSE128537,floor_clip,Temporal,24,8,True,0,0.0
+GSE128537,floor_only,Cingulate gyrus,8,8,True,0,0.0
+GSE128537,floor_only,Frontal (agranular frontal motor areas),16,8,True,0,0.0
+GSE128537,floor_only,Hippocampal formation,24,8,True,24,1.0
+GSE128537,floor_only,Lateral Prefrontal Cortex,0,0,False,0,
+GSE128537,floor_only,Occipital/Temporal,24,8,True,22,0.9166666666666666
+GSE128537,floor_only,Operculum/Insula,8,8,True,3,0.375
+GSE128537,floor_only,Orbitomedial Prefrontal Cortex (OMPFC),16,8,True,4,0.25
+GSE128537,floor_only,"Parietal, and Parieto-occipital region",40,8,True,40,1.0
+GSE128537,floor_only,Subcortical,48,8,True,40,0.8333333333333334
+GSE128537,floor_only,Temporal,24,8,True,0,0.0
+GSE128537,clip_only,Cingulate gyrus,8,8,True,0,0.0
+GSE128537,clip_only,Frontal (agranular frontal motor areas),16,8,True,0,0.0
+GSE128537,clip_only,Hippocampal formation,24,8,True,24,1.0
+GSE128537,clip_only,Lateral Prefrontal Cortex,0,0,False,0,
+GSE128537,clip_only,Occipital/Temporal,24,8,True,23,0.9583333333333334
+GSE128537,clip_only,Operculum/Insula,8,8,True,3,0.375
+GSE128537,clip_only,Orbitomedial Prefrontal Cortex (OMPFC),16,8,True,0,0.0
+GSE128537,clip_only,"Parietal, and Parieto-occipital region",40,8,True,40,1.0
+GSE128537,clip_only,Subcortical,48,8,True,42,0.875
+GSE128537,clip_only,Temporal,24,8,True,0,0.0
+GSE179328,baseline,Cingulate gyrus,0,0,False,0,
+GSE179328,baseline,Frontal (agranular frontal motor areas),36,36,True,1,0.027777777777777776
+GSE179328,baseline,Hippocampal formation,72,36,True,35,0.4861111111111111
+GSE179328,baseline,Lateral Prefrontal Cortex,35,35,True,35,1.0
+GSE179328,baseline,Occipital/Temporal,34,34,True,34,1.0
+GSE179328,baseline,Operculum/Insula,0,0,False,0,
+GSE179328,baseline,Orbitomedial Prefrontal Cortex (OMPFC),36,36,True,0,0.0
+GSE179328,baseline,"Parietal, and Parieto-occipital region",0,0,False,0,
+GSE179328,baseline,Subcortical,137,36,True,137,1.0
+GSE179328,baseline,Temporal,0,0,False,0,
+GSE179328,floor_clip,Cingulate gyrus,0,0,False,0,
+GSE179328,floor_clip,Frontal (agranular frontal motor areas),36,36,True,1,0.027777777777777776
+GSE179328,floor_clip,Hippocampal formation,72,36,True,40,0.5555555555555556
+GSE179328,floor_clip,Lateral Prefrontal Cortex,35,35,True,24,0.6857142857142857
+GSE179328,floor_clip,Occipital/Temporal,34,34,True,34,1.0
+GSE179328,floor_clip,Operculum/Insula,0,0,False,0,
+GSE179328,floor_clip,Orbitomedial Prefrontal Cortex (OMPFC),36,36,True,1,0.027777777777777776
+GSE179328,floor_clip,"Parietal, and Parieto-occipital region",0,0,False,0,
+GSE179328,floor_clip,Subcortical,137,36,True,135,0.9854014598540146
+GSE179328,floor_clip,Temporal,0,0,False,0,
+GSE179328,floor_only,Cingulate gyrus,0,0,False,0,
+GSE179328,floor_only,Frontal (agranular frontal motor areas),36,36,True,10,0.2777777777777778
+GSE179328,floor_only,Hippocampal formation,72,36,True,39,0.5416666666666666
+GSE179328,floor_only,Lateral Prefrontal Cortex,35,35,True,34,0.9714285714285714
+GSE179328,floor_only,Occipital/Temporal,34,34,True,34,1.0
+GSE179328,floor_only,Operculum/Insula,0,0,False,0,
+GSE179328,floor_only,Orbitomedial Prefrontal Cortex (OMPFC),36,36,True,0,0.0
+GSE179328,floor_only,"Parietal, and Parieto-occipital region",0,0,False,0,
+GSE179328,floor_only,Subcortical,137,36,True,137,1.0
+GSE179328,floor_only,Temporal,0,0,False,0,
+GSE179328,clip_only,Cingulate gyrus,0,0,False,0,
+GSE179328,clip_only,Frontal (agranular frontal motor areas),36,36,True,1,0.027777777777777776
+GSE179328,clip_only,Hippocampal formation,72,36,True,40,0.5555555555555556
+GSE179328,clip_only,Lateral Prefrontal Cortex,35,35,True,25,0.7142857142857143
+GSE179328,clip_only,Occipital/Temporal,34,34,True,34,1.0
+GSE179328,clip_only,Operculum/Insula,0,0,False,0,
+GSE179328,clip_only,Orbitomedial Prefrontal Cortex (OMPFC),36,36,True,1,0.027777777777777776
+GSE179328,clip_only,"Parietal, and Parieto-occipital region",0,0,False,0,
+GSE179328,clip_only,Subcortical,137,36,True,135,0.9854014598540146
+GSE179328,clip_only,Temporal,0,0,False,0,

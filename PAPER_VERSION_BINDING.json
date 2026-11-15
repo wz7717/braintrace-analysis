@@ -1,0 +1,25 @@
+{
+  "paper_version": "BrainTrace_R8_Allen_ACT_BiB5000_Refined_Editorial_Concise_20261115",
+  "manuscript_and_supplement_sha256": {
+    "BrainTrace_Main.docx": "97c0bf5dee9993090c7ae5fa74af4fd497ba5b3a3478f1494ff7a247bfd124dd",
+    "BrainTrace_Supplement_Reviewer.docx": "0fb57ab651f19292e6843383d8e6c61461ce41f46f35ec9909b8b0721016f2e4",
+    "BrainTrace_Supplement_Detailed.docx": "b73ce786467d41e75e30ec0e677e5e604e3c8fb80329e4f8181535e88bb5bd00",
+    "Evidence_and_access.html": "bee9170776b1d65927e7d95b216a8d9d4d847f552b12538b38f538d125894400"
+  },
+  "software_basis_commit": "2bf9563cef8190f0483e23a4d54f7e6466fe6c77",
+  "outputs_and_figures": "PAPER_REPRODUCTION_MAP.csv",
+  "submission_status": "Local candidate",
+  "candidate_version": "BrainTrace_R8_Public_Reproduction_Integrated_20261116",
+  "origin_candidate_sha256": "2e44231c00cd2739d5d61e3e42c20914546c4a6bfd61963213c08902c5677294",
+  "origin_addenda": [
+    {
+      "archive": "BrainTrace_Public_Scope_Addendum_20261115_LOCAL.zip",
+      "sha256": "bdb91d9653cfea693432a16fb761ea4a1d35fe702567a6b981b7f0c4e047d594"
+    },
+    {
+      "archive": "BrainTrace_Public_Scope_Addendum2_20261115_LOCAL.zip",
+      "sha256": "d01ac8d22e36b523083eb80ab0afd0a3fb6042646175a95e154415a1542d3f3a"
+    }
+  ],
+  "figure_acceptance": "analysis/figures/FIGURE_ACCEPTANCE.json"
+}

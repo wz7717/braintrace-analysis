@@ -1,0 +1,24 @@
+{
+  "version": "S32-AHBA-posttransform-20261115",
+  "paper": "Methods S32, detailed supplement p.112",
+  "starting_point": "Frozen 231 x 5,000 post-transform matrix, 10 x 5,000 donor-equal source centroids, final model coefficients and intercepts, and frozen evaluation labels",
+  "runtime": {
+    "platform": "Windows x64",
+    "python": "3.11.9",
+    "numpy": "1.26.4"
+  },
+  "evaluation": {
+    "technical_profiles": 231,
+    "evaluated_profiles": 223,
+    "singleton_truths": 56,
+    "allowed_set_multiple_truths": 167,
+    "technical_failures": 0
+  },
+  "local_replay_checks": {
+    "logit_rows_equal": 231,
+    "logit_values_equal": 2310,
+    "maximum_absolute_logit_difference": 0.0
+  },
+  "matching_csv_count": 3,
+  "access": "The downstream array, linked evaluation index and runner have separate access conditions."
+}

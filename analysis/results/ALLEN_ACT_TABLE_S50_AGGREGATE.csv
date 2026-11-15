@@ -1,0 +1,5 @@
+truth_region,weighting,specimens,donors,top1_hits,top1_proportion,technical_failures,misclassifications
+HIP,specimen_within_region,11,11,11,1.0,0,0
+TCx,specimen_within_region,10,10,10,1.0,0,0
+all_evaluated,pooled_specimen,21,11,21,1.0,0,0
+all_evaluated,donor_equal,21,11,,1.0,0,0
