@@ -9,11 +9,15 @@ curl.exe --fail --location "<official-file-URL>" --output "<local-filename>"
 Get-FileHash -LiteralPath "<local-filename>" -Algorithm SHA256
 ~~~
 
+## GEO FTP alternatives
+
+Use the official FTP links in the [source register](../data/INTEGRATED_SOURCE_URLS_AND_SHA256.csv) if the GEO accession page shows a browser check. The Family SOFT headers confirm the accessions for GSE46706, GSE60862 and GSE25219. For B17, the register also links the study-wide `GSE25219_RAW.tar`. Verification covered the TAR header and first CEL member name. The software example `GSM755211.CEL.gz` has a direct FTP link and full SHA-256 in the same register.
+
 ## By route
 
 | Route | Public source and use | Exact materials and access conditions |
 | --- | --- | --- |
-| S31 | Obtain UKBEC CEL through the GEO series; use the specified GTEx v11 TPM/annotations and HPA/HBTB v25.1 transcript archive with Ensembl 109. Use the historical digest on moving download URLs. | The portable entries are included. Obtain the seven exact derived inputs and UKBEC saved predictions from the data custodian for the applicable use. GTEx controlled data, if needed, follow dbGaP. |
+| S31 | Obtain UKBEC CEL through the GEO series and use the specified GTEx v11 TPM and annotations. Use GCS generation `1779807111186176` for the substantia nigra TPM file and the official v25 archive link for the HPA/HBTB v25.1 transcripts (Ensembl 109). Compare both downloads with the recorded SHA-256 values. | The portable entries are included. Obtain the seven exact derived inputs and UKBEC saved predictions from the data custodian for the applicable use. GTEx controlled data, if needed, follow dbGaP. |
 | S32 Bo | PRJNA905082 provides raw sequence reads. Public fixed software references are linked by commit in the source register. | The three originally supplied processed count/VSD/specimen files remain under supplier conditions. The gene axis is included. The remaining five B5 members and unfurnished fold-level references, rules and sample bindings retain their individual access conditions. |
 | S32 GEO / PsychENCODE | Obtain the original two GEO count/annotation releases. Follow the Sousa et al. PsychENCODE adult count and metadata release and the recorded Ensembl/XSAnno version. | Original source downloads can be compared to the register. The research runners are included. The exact research target matrices, masks, sample/label eligibility and unmatched research assets retain their corresponding access conditions. |
 | S32 AHBA | Download the two RNA-seq archives H0351_2001_rnaseq.zip and H0351_2002_rnaseq.zip from the Allen RNA-sequencing section and compare the SHA-256 values in the source register. | The transform and split target matrix and index are included. Reuse the fixed public model and state. Obtain the precise Bo donor-equal Pearson centroids under their recorded access conditions. [Target matrix and index](../ahba/README.md) |
