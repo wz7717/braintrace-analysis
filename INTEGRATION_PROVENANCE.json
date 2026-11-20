@@ -249,6 +249,7 @@
     "paper_binding": "PAPER_VERSION_BINDING.json",
     "analysis_route": "analysis/research/macaque_ensembl97/README.md",
     "prior_integration_commit": "31dad07ff4c490fdf75c6102da7c530ffb095553",
-    "manuscript_revision": "20261120-s37-reference-ids"
+    "manuscript_revision": "20261120-reviewed-github",
+    "analysis_code_commit": "243557aacf77f5613e0b1e5720fa72f612ff8aef"
   }
 }

@@ -1,10 +1,11 @@
 {
   "paper_version": "BrainTrace_R9_Ensembl97_Source_Fix_20261120",
   "manuscript_and_supplement_sha256": {
-    "BrainTrace_Main.docx": "185f9471d597c288cb89a8f43d290fb65fa089822fb422ee56a445e911c5e2bd",
+    "BrainTrace_Main.docx": "dc8df7519b4c0db5f82b75966ecf84c6990d7c9d61fdf1be848c8515dff49f90",
     "BrainTrace_Supplement_Reviewer.docx": "471237a39e440971a09ea889f39ebae8592a0bfda01af225a9a43b65c131ee4b",
     "BrainTrace_Supplement_Detailed.docx": "0b0ee0666f36eb9e4fbfc98c3f922c25f421df5e20045fc09b60dd334662c705",
-    "Evidence_and_access.html": "3f3b4e3e1e4e33e74fb72f160babca2b6ca5978eb2e1754ccbed2052a0eb5b57"
+    "Evidence_and_access.html": "1bf6e953cf5ad88d2331a2fad518179044e369561167f50a53c710d95ba8a603",
+    "Figure_Table_Index.html": "9fb081a4fb38fa768cca47489e0a215a42b668c9110decf60c5bfe0a45a5a9ff"
   },
   "software_basis_commit": "45666e9dca04df29a1541c88ba8aaff36a0213dc",
   "software_repository": "https://github.com/wz7717/braintrace-web",
@@ -18,12 +19,14 @@
     "historical": "analysis/figures/FIGURE_ACCEPTANCE.json"
   },
   "table_7": "The two ambiguous GEO rows in Table 7 and the reviewer HTML match Table S38A and the k=1 secondary_ambiguous rows in analysis/research/macaque_ensembl97/aggregates/RETRIEVAL_MATCHED.csv.",
-  "previous_github_binding": "https://github.com/wz7717/braintrace-analysis/blob/31dad07ff4c490fdf75c6102da7c530ffb095553/PAPER_VERSION_BINDING.json",
+  "previous_github_binding": "https://github.com/wz7717/braintrace-analysis/blob/243557aacf77f5613e0b1e5720fa72f612ff8aef/PAPER_VERSION_BINDING.json",
   "prior_zenodo_version": "https://doi.org/10.5281/zenodo.24311372",
   "manuscript_revision": {
-    "id": "20261120-s37-reference-ids",
-    "scope": "Document identities at code publication, before insertion of this release’s fixed GitHub links.",
-    "reference_index": "software/runtime_assets/science/lower/BEAMS.json",
-    "document_binding_for_revised_citations": "https://github.com/wz7717/braintrace-analysis/blob/main/PAPER_VERSION_BINDING.json"
-  }
+    "id": "20261120-reviewed-github",
+    "previous_main_sha256": "185f9471d597c288cb89a8f43d290fb65fa089822fb422ee56a445e911c5e2bd",
+    "code_and_figure_sources": "https://github.com/wz7717/braintrace-analysis/tree/243557aacf77f5613e0b1e5720fa72f612ff8aef",
+    "scope": "Updated the manuscript and reviewer links to the audited analysis and application commits. Supplementary Table S37 identifies the current Ensembl 97 references.",
+    "embedded_figure_files_identical_to_previous_revision": true
+  },
+  "analysis_code_commit": "243557aacf77f5613e0b1e5720fa72f612ff8aef"
 }
