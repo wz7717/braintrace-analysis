@@ -1,5 +1,7 @@
 # BrainTrace analysis
 
+The [November 20 macaque analysis](research/macaque_ensembl97/README.md) includes the expression-independent Ensembl 97 annotation, donor-held-out source fits and fixed external evaluation. Earlier route entries below describe their original study scope.
+
 Use the route index for the Editorial Concise manuscript and the runbook for the corresponding invocation and access scope. [Paper sections](PAPER_SECTIONS.csv) · [Runbook](docs/RUN.md)
 
 | Route | Included | Exact frozen study inputs still needed |

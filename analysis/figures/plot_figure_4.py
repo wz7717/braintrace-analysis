@@ -48,6 +48,7 @@ def main():
         axis.set_xlabel("Share of matched samples (%)")
         axis.set_title(title, fontsize=11, pad=14, loc="left")
         axis.invert_yaxis()
+    axes[1].tick_params(axis="y", labelleft=True)
     fig.suptitle("Shared and method-specific Top1 errors", x=0.04, ha="left", fontweight="bold", fontsize=14)
     handles, labels = axes[0].get_legend_handles_labels()
     fig.legend(handles, labels, loc="lower center", ncol=4, frameon=False, bbox_to_anchor=(0.5, 0.04))

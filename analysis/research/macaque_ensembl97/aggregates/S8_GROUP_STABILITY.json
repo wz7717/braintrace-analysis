@@ -1,0 +1,54 @@
+{
+  "fold_local_floor_clip": {
+    "donors": 9,
+    "objects": 189,
+    "support_anchors": 6917,
+    "partial_support": 36,
+    "possible": 1080,
+    "unpaired": 891,
+    "exact": 0.40590544192954076,
+    "jaccard": 0.7062848009695162,
+    "restricted_exact": 0.40590544192954076,
+    "restricted_jaccard": 0.7062848009695162
+  },
+  "original_common_background": {
+    "heldout_donors": 9,
+    "paired_objects": 189,
+    "common_support_anchor_uses": 6897,
+    "full_member_exact_agreement": 0.40511777101522645,
+    "full_member_Jaccard": 0.7049158810791523,
+    "common_support_restricted_exact_agreement": 0.40511777101522645,
+    "common_support_restricted_member_Jaccard": 0.7049158810791523
+  },
+  "old_only": [
+    [
+      3,
+      [
+        "Cingulate gyrus",
+        "Orbitomedial Prefrontal Cortex (OMPFC)",
+        "Subcortical"
+      ]
+    ]
+  ],
+  "new_only": [
+    [
+      2,
+      [
+        "Lateral Prefrontal Cortex",
+        "Orbitomedial Prefrontal Cortex (OMPFC)",
+        "Temporal"
+      ]
+    ]
+  ],
+  "original_secondary": {
+    "heldout_donors": 9,
+    "paired_objects": 34,
+    "common_support_anchor_uses": 1238,
+    "full_member_exact_agreement": 0.4117812768190649,
+    "full_member_Jaccard": 0.702715912986909,
+    "common_support_restricted_exact_agreement": 0.4117812768190649,
+    "common_support_restricted_member_Jaccard": 0.702715912986909
+  },
+  "original_secondary_overlapping_new": [],
+  "positions_without_revised_or_original_secondary_partition": 857
+}

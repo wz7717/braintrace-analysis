@@ -94,7 +94,7 @@ def draw_workflow_pdf(path, regular_font, bold_font):
             block(x, y + 103, w, 36, lines, col, fill, bold=i == 3)
             if i < 3:
                 arrow(x + w + 2, y + 121, xs[i + 1] - 4, y + 121, col)
-        note = 'GTEx / HPA: explicit RANK adapters' if label == 'Human' else 'Rhesus: orthology mapping and missing-feature adaptation'
+        note = 'GTEx, HPA and Allen ACT: cohort-specific TPM rank backgrounds' if label == 'Human' else 'Rhesus: orthology mapping and missing-feature adaptation'
         text(88, y + 156, note, 10, color=col, bold=label == 'Human')
     text(width / 2, 395, 'Separate species models     |     Top1: leading candidate     |     Top3: three candidates', 10, anchor='center')
     c.showPage()

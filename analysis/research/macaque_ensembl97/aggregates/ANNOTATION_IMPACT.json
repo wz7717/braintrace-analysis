@@ -1,0 +1,17 @@
+{
+  "Network_all_ranks_changed": 12,
+  "Network_top1_changed": 0,
+  "Network_top3_set_changed": 2,
+  "Network_hit1_changed": 0,
+  "Network_hit3_changed": 0,
+  "Group_all_ranks_changed": 2,
+  "Group_top1_changed": 2,
+  "Group_top3_set_changed": 2,
+  "Group_hit1_changed": 0,
+  "Group_hit3_changed": 1,
+  "Exact_all_ranks_changed": 3,
+  "Exact_top1_changed": 1,
+  "Exact_top3_set_changed": 2,
+  "Exact_hit1_changed": 0,
+  "Exact_hit3_changed": 1
+}

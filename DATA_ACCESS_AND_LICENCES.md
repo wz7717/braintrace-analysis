@@ -1,5 +1,7 @@
 # Data access and applicable terms
 
+The [macaque Ensembl 97 route](analysis/research/macaque_ensembl97/README.md) provides source-fitting code, a reference gene map, aggregate endpoints and revised project reference assets. The original Bo count files and workbook, individual evaluation rosters and recipient-supplied matrices are acquired separately. The earlier hash-specific notices identify the scope of those releases.
+
 | Object | Access and applicable conditions |
 | --- | --- |
 | B17, S31–S33 and plotting code | The project entries and figure sources are identified by version and checksum. Preserve the existing MIT notices for the B17 sources, the MIT-covered components of the project code, and the inherited AHBA functions. The current redistribution candidate records the project scope for each added entry. Model assets, inputs, saved data and third-party packages follow their own terms. |

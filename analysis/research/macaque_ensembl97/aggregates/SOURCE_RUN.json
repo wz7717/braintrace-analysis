@@ -1,0 +1,28 @@
+{
+  "edition": "BrainTrace_R9_Ensembl97_Source_Fix_20261120",
+  "completed_utc": "2026-11-20T14:23:16+00:00",
+  "selection_input": "fresh raw-count fits; no score cache",
+  "fits": {
+    "seven_donor_training_fits": 108,
+    "eight_donor_validation_fits_for_final_C": 27,
+    "outer_selected_C_fits": 9,
+    "all_source_fit": 1,
+    "total": 145,
+    "donor_validation_scores": 243
+  },
+  "scientific_environment": {
+    "python": "3.11.9",
+    "numpy": "1.26.4",
+    "pandas": "2.2.3",
+    "scipy": "1.13.1",
+    "scikit-learn": "1.5.2",
+    "openpyxl": "3.1.5",
+    "threadpoolctl": "3.6.0",
+    "joblib": "1.5.3"
+  },
+  "inputs": {
+    "external_data/Bo2023/mfas5_819samples_28415genes_featurecounts_counts.txt": "1fb3a512da11ab0c327c07c114da3b9c38cab0a504682f2c7c036eedb3c7561a",
+    "external_data/Bo2023/Information of sequenced samples_update_full878_filter819.xlsx": "9a2fe2bec1475f6ad613883d0ff5925b1e6ba36e800caa922c35d4f8ae7d3645"
+  },
+  "aggregate_summary": "SOURCE_REFIT.json"
+}

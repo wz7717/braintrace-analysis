@@ -1,25 +1,23 @@
 {
-  "paper_version": "BrainTrace_R8_Allen_ACT_BiB5000_Refined_Editorial_Concise_20261115",
+  "paper_version": "BrainTrace_R9_Ensembl97_Source_Fix_20261120",
   "manuscript_and_supplement_sha256": {
-    "BrainTrace_Main.docx": "97c0bf5dee9993090c7ae5fa74af4fd497ba5b3a3478f1494ff7a247bfd124dd",
-    "BrainTrace_Supplement_Reviewer.docx": "0fb57ab651f19292e6843383d8e6c61461ce41f46f35ec9909b8b0721016f2e4",
-    "BrainTrace_Supplement_Detailed.docx": "b73ce786467d41e75e30ec0e677e5e604e3c8fb80329e4f8181535e88bb5bd00",
-    "Evidence_and_access.html": "bee9170776b1d65927e7d95b216a8d9d4d847f552b12538b38f538d125894400"
+    "BrainTrace_Main.docx": "2c321d0b97a21ee177efd9761ddae96b6b2a0b5d51b8393d699af4d18966c5ef",
+    "BrainTrace_Supplement_Reviewer.docx": "471237a39e440971a09ea889f39ebae8592a0bfda01af225a9a43b65c131ee4b",
+    "BrainTrace_Supplement_Detailed.docx": "c56c5c6c6ffcb747e3558070de51a93d60fd3b5eb6b72f2db62f9d347db1017b",
+    "Evidence_and_access.html": "f043c82df774b66f1024ac1fbaa65061f38783415da2bb27884eb9811b56274e"
   },
-  "software_basis_commit": "2bf9563cef8190f0483e23a4d54f7e6466fe6c77",
+  "software_basis_commit": "a5b85b80df41b9e7646de7a57fa6ef03b4a21fe0",
+  "software_repository": "https://github.com/wz7717/braintrace-web",
+  "macaque_scheme": "BrainTrace_macaque_source_Ensembl97_floor_clip_20261120",
+  "source_and_external_analysis": "analysis/research/macaque_ensembl97",
   "outputs_and_figures": "PAPER_REPRODUCTION_MAP.csv",
-  "submission_status": "Local candidate",
-  "candidate_version": "BrainTrace_R8_Public_Reproduction_Integrated_20261116",
-  "origin_candidate_sha256": "2e44231c00cd2739d5d61e3e42c20914546c4a6bfd61963213c08902c5677294",
-  "origin_addenda": [
-    {
-      "archive": "BrainTrace_Public_Scope_Addendum_20261115_LOCAL.zip",
-      "sha256": "bdb91d9653cfea693432a16fb761ea4a1d35fe702567a6b981b7f0c4e047d594"
-    },
-    {
-      "archive": "BrainTrace_Public_Scope_Addendum2_20261115_LOCAL.zip",
-      "sha256": "d01ac8d22e36b523083eb80ab0afd0a3fb6042646175a95e154415a1542d3f3a"
-    }
-  ],
-  "figure_acceptance": "analysis/figures/FIGURE_ACCEPTANCE.json"
+  "submission_status": "Local manuscript candidate",
+  "figure_acceptance": {
+    "1": "analysis/figures/FIGURE_1_ACCEPTANCE_20261120.json",
+    "4,7": "analysis/figures/FIGURES_4_7_ACCEPTANCE_20261120.json",
+    "historical": "analysis/figures/FIGURE_ACCEPTANCE.json"
+  },
+  "table_7": "Use the secondary_ambiguous rows of aggregates/RETRIEVAL_MATCHED.csv for the revised external numerical values. The corresponding two Word rows still contain values from the previous edition.",
+  "previous_github_binding": "https://github.com/wz7717/braintrace-analysis/blob/e47e7b5703e47ef4226e6e97d2cc9ec628a632e6/PAPER_VERSION_BINDING.json",
+  "prior_zenodo_version": "https://doi.org/10.5281/zenodo.24311372"
 }

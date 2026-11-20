@@ -242,5 +242,12 @@
       "sha256": "d01ac8d22e36b523083eb80ab0afd0a3fb6042646175a95e154415a1542d3f3a"
     }
   ],
-  "act_linkable_objects_retained_author_side": 3
+  "act_linkable_objects_retained_author_side": 3,
+  "current_github_revision": {
+    "paper_version": "BrainTrace_R9_Ensembl97_Source_Fix_20261120",
+    "software_commit": "a5b85b80df41b9e7646de7a57fa6ef03b4a21fe0",
+    "paper_binding": "PAPER_VERSION_BINDING.json",
+    "analysis_route": "analysis/research/macaque_ensembl97/README.md",
+    "prior_integration_commit": "e47e7b5703e47ef4226e6e97d2cc9ec628a632e6"
+  }
 }

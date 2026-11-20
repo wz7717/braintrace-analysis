@@ -1,5 +1,7 @@
 # Using the frozen software in this candidate
 
+The [November 20 software entry](README.md) and [version binding](../PAPER_VERSION_BINDING.json) identify the current macaque model. The original integration inventory below describes its historical release.
+
 The software files derive from the reviewed deployed commit 2bf9563. Use the pinned Python 3.11.9 environment and the app dependency and package instructions. Set up the compatible scientific environment, then assemble the files into a separate runtime directory. [Streamlit deployment instructions](docs/STREAMLIT_CLOUD.md) · [Frozen input contract](docs/INPUT_FORMATS.md)
 
 From this software directory on a host with the prescribed dependencies:

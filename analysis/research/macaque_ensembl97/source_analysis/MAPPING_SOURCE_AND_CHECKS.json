@@ -1,0 +1,29 @@
+{
+  "reference": "Ensembl release 97, Macaca_fascicularis_5.0, GCA_000364345.1",
+  "GTF_url": "https://ftp.ensembl.org/pub/release-97/gtf/macaca_fascicularis/Macaca_fascicularis.Macaca_fascicularis_5.0.97.gtf.gz",
+  "GTF_sha256": "81dad96448ed759be50958ca1a8a819e9e8a0adcfa7080488f1d7506b7e80858",
+  "author_source_annotation_code": "https://github.com/WangLab-SINH/Macaque_Brain_Transcriptome_MRI/blob/602dbb7db768abf4d1b0d842b7ba73b4770f840d/Code/run_deseq2.R#L43-L66",
+  "author_featurecounts_annotation_code": "https://github.com/WangLab-SINH/Macaque_Brain_Transcriptome_MRI/blob/602dbb7db768abf4d1b0d842b7ba73b4770f840d/Code/run_featurecounts2dexseq_pairwise.R",
+  "source_identity_basis": "The authors refer to ensembl_mfas5_gene.txt, an Ensembl 97 exon annotation, and mfas5.0.97 lengths. This independent reconstruction matches all input stable IDs and 23,604 of 23,605 names in the project’s cleaned whole-brain table. The authors’ unfiltered gene-name export was not available for a bytewise comparison.",
+  "mapping": "mfas5_ensembl97_gene_map.csv",
+  "mapping_sha256": "6a8661d108cd96205bbf3a88ada596534a57f0f86b6cd863ef26f69372e3eb66",
+  "reader": "core.reference_projection.read_gene_map",
+  "rule": "One row per gene_id on gene records in the full reference; use gene_name when present, otherwise the stable ID. Match by stable ID, independent of sample expression. Shared feature keys aggregate counts under the published sum-by-name convention.",
+  "GTF_gene_IDs": 29324,
+  "source_count_IDs": 28415,
+  "matched_source_count_IDs": 28415,
+  "original_whole_brain_IDs": 23605,
+  "same_names_as_original_cleaned_table": 23604,
+  "disagreements_with_original_cleaned_table": {
+    "ENSMFAG00000032804": {
+      "old": "MARCH2",
+      "Ensembl97": "MARC2"
+    }
+  },
+  "unlisted_in_whole_brain_table": 4810,
+  "newly_have_name": 3269,
+  "annotation_builder": "build_annotation.py",
+  "gene_table_regenerated_from_gtf_byte_identical": true,
+  "source_results": "../aggregates/SOURCE_REFIT.json",
+  "change_from_preceding_fit": "../aggregates/ANNOTATION_IMPACT.json"
+}

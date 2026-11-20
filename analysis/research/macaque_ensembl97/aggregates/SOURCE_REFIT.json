@@ -1,0 +1,25 @@
+{
+  "variant": "floor_clip",
+  "sample_count": 819,
+  "donors": 9,
+  "selection": "fits from raw count input",
+  "final_C": 0.1,
+  "pooled_hits": {
+    "Network_hit1": 629,
+    "Network_hit3": 797,
+    "Group_hit1": 342,
+    "Group_hit3": 594,
+    "Exact_hit1": 185,
+    "Exact_hit3": 344
+  },
+  "donor_equal": {
+    "Network_hit1": 0.756468604766662,
+    "Network_hit3": 0.9649492193111284,
+    "Group_hit1": 0.4138549241595543,
+    "Group_hit3": 0.7237053311037065,
+    "Exact_hit1": 0.21720033149783333,
+    "Exact_hit3": 0.3988960056334119
+  },
+  "final_eligible_symbols": 21668,
+  "final_lower_combinations": 120
+}

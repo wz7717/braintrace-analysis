@@ -1,0 +1,11 @@
+cohort,tier,profiles,ordering_changed,top1_changed,top3_set_changed
+GSE128537,Network,312,56,0,4
+GSE128537,Group,312,4,2,3
+GSE128537,Exact,312,4,2,3
+GSE179328,Network,491,40,0,4
+GSE179328,Group,491,4,4,4
+GSE179328,Exact,491,4,4,3
+PsychENCODE,Network,77,8,0,0
+PsychENCODE,Group,77,0,0,0
+PsychENCODE,Exact,77,0,0,0
+AHBA,Network,231,32,1,2

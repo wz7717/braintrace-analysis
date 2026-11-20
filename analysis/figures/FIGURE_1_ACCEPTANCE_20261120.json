@@ -1,0 +1,23 @@
+{
+  "figure": "Figure 1",
+  "script": "plot_figure_1.py",
+  "source_sha256": "272a6755b969d80a570f04b4a3f4b40a2e7d6a0dffa7533bf831400742dc4ac5",
+  "manuscript_sha256": "4aa59ed5578e1ef9f9b41a449a5877cf36d9e6ee3fa64fe88df33442527a9aa6",
+  "embedded_media": "word/media/image9.png",
+  "embedded_and_displayed_png_sha256": "8cd0cba762075c978ec2af48f35e1b6ff56853443e64f0a71959a7b54ee96d60",
+  "regenerated_png_sha256": "8cd0cba762075c978ec2af48f35e1b6ff56853443e64f0a71959a7b54ee96d60",
+  "width_height": [
+    6000,
+    3375
+  ],
+  "identical_png_bytes": true,
+  "dpi": 600,
+  "python": "3.12.14",
+  "reportlab": "4.4.9",
+  "pdftoppm": "pdftoppm version 26.07.0",
+  "font_sha256": {
+    "arial.ttf": "edfbd22a3d088fc2f5d7c79b8c9c732df6dc878a60f0a80be0f92a3c7a634404",
+    "arialbd.ttf": "4d59199834e7439c67ea4949407639961060b21b173833f566eb60ac6fd8f5af"
+  },
+  "human_RNA_seq_annotation": "GTEx, HPA and Allen ACT: cohort-specific TPM rank backgrounds"
+}

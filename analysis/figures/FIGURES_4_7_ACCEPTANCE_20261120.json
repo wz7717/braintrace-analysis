@@ -1,0 +1,32 @@
+{
+  "main_sha256": "2c321d0b97a21ee177efd9761ddae96b6b2a0b5d51b8393d699af4d18966c5ef",
+  "python": "3.11.9",
+  "matplotlib": "3.10.7",
+  "numpy": "1.26.4",
+  "pillow": "12.3.0",
+  "figures": [
+    {
+      "figure": 4,
+      "png_sha256": "44d091d837119e1d389a882a1f54871d3f244e8316ef6232b2a62d407b634081",
+      "manuscript_media": "word/media/image4.png",
+      "identical_png_bytes": true,
+      "script": "plot_figure_4.py",
+      "script_sha256": "5f134172cea0b5ed818d5303e1bb3c0b6b92d8560bba19791def0dc911840c1c",
+      "input_sha256": {
+        "inputs/figure_4/HUMAN_TOP1_INTERSECTIONS.csv": "2cda001a99b1c24742cb45fbd352a12baed90201407915dd943ca93a04ed7273"
+      }
+    },
+    {
+      "figure": 7,
+      "png_sha256": "7f99f7841700c9fe5f43603df6b904a2262c5727df0bd105de8d0f7ea81c4682",
+      "manuscript_media": "word/media/image10.png",
+      "identical_png_bytes": true,
+      "script": "plot_figure_7.py",
+      "script_sha256": "cf03e20bc13d169fd2f4b3149ea6fb037287b5c21848506ac5b78039a52ad03f",
+      "input_sha256": {
+        "inputs/figure_7/EXTERNAL_THREE_TIER.csv": "951e74ac1959ba2e13efb2c9674d47feeb9f1a38cbc193ca52205e1569cd1ec0",
+        "inputs/figure_7/SOURCE_THREE_TIER.csv": "79586e8cd7678f6ad21a2aeeb2a655d3f6b74d7ed8c7b2568bc55a29a0eede54"
+      }
+    }
+  ]
+}

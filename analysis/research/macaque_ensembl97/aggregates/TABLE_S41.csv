@@ -1,0 +1,9 @@
+endpoint,tier,k,n,donors,unsupported,supported_truth_outside_pool,unavailable,in_pool_rank_miss,hits,in_pool_n,in_pool_donors,in_pool_donor_hit_percent
+all_samples,Exact,1,819,9,7,20,0,607,185,792,9,22.748476800059006
+all_samples,Group,1,819,9,7,20,0,450,342,792,9,43.134395229356144
+all_samples,Exact,3,819,9,7,20,0,448,344,792,9,41.65924534900129
+all_samples,Group,3,819,9,7,20,0,198,594,792,9,75.77783185887488
+supported_812,Exact,1,812,9,0,20,0,607,185,792,9,22.748476800059006
+supported_812,Group,1,812,9,0,20,0,450,342,792,9,43.134395229356144
+supported_812,Exact,3,812,9,0,20,0,448,344,792,9,41.65924534900129
+supported_812,Group,3,812,9,0,20,0,198,594,792,9,75.77783185887488

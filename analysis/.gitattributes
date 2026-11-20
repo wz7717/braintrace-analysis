@@ -1,0 +1,4 @@
+# Keep the source annotation and published numerical inputs byte-identical to the analysis exports.
+research/macaque_ensembl97/aggregates/** -text
+research/macaque_ensembl97/source_analysis/mfas5_ensembl97_gene_map.csv -text
+figures/inputs/figure_7/*.csv -text
