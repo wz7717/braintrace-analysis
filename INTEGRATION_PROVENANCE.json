@@ -245,9 +245,10 @@
   "act_linkable_objects_retained_author_side": 3,
   "current_github_revision": {
     "paper_version": "BrainTrace_R9_Ensembl97_Source_Fix_20261120",
-    "software_commit": "a5b85b80df41b9e7646de7a57fa6ef03b4a21fe0",
+    "software_commit": "fb0f0284f2af9c6e7432fc50fb4189b8fd2904d9",
     "paper_binding": "PAPER_VERSION_BINDING.json",
     "analysis_route": "analysis/research/macaque_ensembl97/README.md",
-    "prior_integration_commit": "e47e7b5703e47ef4226e6e97d2cc9ec628a632e6"
+    "prior_integration_commit": "4e6a85188c8cfcf2f6273de4ab84bc9e5951848a",
+    "manuscript_revision": "20261120-table7-cli"
   }
 }

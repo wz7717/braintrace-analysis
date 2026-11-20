@@ -1,6 +1,6 @@
 # BrainTrace analysis and reproducibility materials
 
-The November 20 GitHub edition includes the [Ensembl 97 source refit, external-cohort results and acquisition notes](analysis/research/macaque_ensembl97/README.md). The [web application at the matching commit](https://github.com/wz7717/braintrace-web/tree/a5b85b80df41b9e7646de7a57fa6ef03b4a21fe0) uses the same model, lower references and input mappings. The [November 17 archive](https://doi.org/10.5281/zenodo.24311372) preserves the preceding analysis package.
+The November 20 GitHub edition includes the [Ensembl 97 source refit, external-cohort results and acquisition notes](analysis/research/macaque_ensembl97/README.md). The [web application at the matching commit](https://github.com/wz7717/braintrace-web/tree/fb0f0284f2af9c6e7432fc50fb4189b8fd2904d9) uses the same model, lower references and input mappings. The [November 17 archive](https://doi.org/10.5281/zenodo.24311372) preserves the preceding analysis package.
 
 Figures 1, 4 and 7 have checked-in drawing scripts for the current manuscript. Figure 7 uses the revised source and external aggregate inputs. [Plotting instructions and render receipts](analysis/figures/README.md)
 
