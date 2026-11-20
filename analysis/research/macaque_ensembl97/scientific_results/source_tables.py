@@ -159,6 +159,7 @@ def figures(summary,matched,dest):
     from records import SETS
     dest.mkdir(exist_ok=True,parents=True)
     archive=next(PROJECT.glob('BrainTrace_R8_*/*R9_Archive*/published_files/*.zip'))
+    figure_7 = dest / 'Figure_7.png'
     with zipfile.ZipFile(archive) as z:
         source=pd.read_csv(io.BytesIO(read_archive_script(z,'SOURCE_THREE_TIER.csv')))
         for i,row in source.iterrows():
@@ -185,7 +186,7 @@ def figures(summary,matched,dest):
             tool=Path(tmp)
             for name in ('plot_common.py','plot_figure_7.py'):
                 (tool/name).write_bytes(read_archive_script(z,name))
-            subprocess.run([sys.executable,str(tool/'plot_figure_7.py'),'--inputs',str(dest),'--output',str(dest/'Figure_7.png')],check=True)
+            subprocess.run([sys.executable,str(tool/'plot_figure_7.py'),'--inputs',str(dest),'--output',str(figure_7)],check=True)
     pairs=pd.read_csv(BUDGET/'analysis_attempt01/PAIRED_COMPARISONS.csv')
     ext=pd.read_csv(OUT.parent/'external_analysis/results/RETRIEVAL_MATCHED.csv')
     plot_rows=pd.concat([matched.assign(cohort='Source_OOF'),ext],ignore_index=True)
@@ -207,14 +208,19 @@ def figures(summary,matched,dest):
     scope=dict(plt=plt,pd=pd,np=np,pairs=pairs,SETS=SETS,Line2D=Line2D)
     exec(compile(block,'archived_S10_plot_block','exec'),scope)
     fig=scope['fig']
-    for extension in ('png','pdf'):
-        fig.savefig(dest/('Figure_S10.'+extension),dpi=190,facecolor='white')
+    s10_files = (dest / 'Figure_S10.png', dest / 'Figure_S10.pdf')
+    for path in s10_files:
+        fig.savefig(path, dpi=190, facecolor='white')
     plt.close(fig)
+    return (figure_7, *s10_files)
 
 def run():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--historical-check',action='store_true')
-    parser.add_argument('--figures', action='store_true', help='Also recreate figure input tables using the original study archive and resampling draws.')
+    parser.add_argument(
+        '--figures', action='store_true',
+        help='Write Figure 7, Figure S10 and their input CSVs. Requires the original study archive, '
+             'external endpoint and retrieval results, and historical donor resampling draws.')
     args=parser.parse_args()
     orig=read_table(BRIDGE/'execution/PREDICTIONS.csv')
     old={s:g.set_index('sample_id').sort_index() for s,g in orig.groupby('arm')}
@@ -250,10 +256,14 @@ def run():
     for name,df in [('SOURCE_TIER_RATES',summary),('VSD_PAIRED',pairs),('TABLE_7_S38',matched),('TABLE_S41',attribution),
                     ('TABLE_9_S45',random),('WITHIN_POOL_PERCENTILE',rank_stats),('TABLE_S42_UNMASKED',regional)]:
         df.to_csv(OUT/(name+'.csv'),index=False)
-    if args.figures:
-        figures(summary,matched,OUT/'figures')
     print(summary[summary.version=='corrected'][['tier','Top1','Top3']].to_string(index=False))
-    print('Source summaries and both figures saved.')
+    print(f'Source summary CSVs saved in {OUT}')
+    if args.figures:
+        figure_dir = OUT / 'figures'
+        figure_files = figures(summary, matched, figure_dir)
+        print(f'Figure input CSVs saved in {figure_dir}')
+        for path in figure_files:
+            print(f'Saved figure {path}')
 
 if __name__=='__main__':
     run()

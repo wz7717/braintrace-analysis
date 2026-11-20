@@ -245,10 +245,10 @@
   "act_linkable_objects_retained_author_side": 3,
   "current_github_revision": {
     "paper_version": "BrainTrace_R9_Ensembl97_Source_Fix_20261120",
-    "software_commit": "fb0f0284f2af9c6e7432fc50fb4189b8fd2904d9",
+    "software_commit": "45666e9dca04df29a1541c88ba8aaff36a0213dc",
     "paper_binding": "PAPER_VERSION_BINDING.json",
     "analysis_route": "analysis/research/macaque_ensembl97/README.md",
-    "prior_integration_commit": "4e6a85188c8cfcf2f6273de4ab84bc9e5951848a",
-    "manuscript_revision": "20261120-table7-cli"
+    "prior_integration_commit": "31dad07ff4c490fdf75c6102da7c530ffb095553",
+    "manuscript_revision": "20261120-s37-reference-ids"
   }
 }
