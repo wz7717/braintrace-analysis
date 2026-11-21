@@ -1,0 +1,66 @@
+{
+  "manuscript_version": "v38",
+  "comparison": "Each script read its default repository CSVs. The rendered PNGs were compared byte for byte with the embedded images in the English and Chinese v38 manuscripts.",
+  "manuscripts_sha256": {
+    "BrainTrace_Main.docx": "3de3e6b53afc4a62ef7fc7a50d5d6000f60e8f0cbbbea5788952854dd24e171a",
+    "BrainTrace_Main_中文阅读版_v38.docx": "7b279472aa9b0c4e2e0e48d2de7969d59b0e45cf7019d558caba979c5e8c46ca"
+  },
+  "environment": {
+    "platform": "Windows x64",
+    "python": "3.11.9",
+    "matplotlib": "3.10.7",
+    "numpy": "1.26.4",
+    "pandas": "2.2.3",
+    "pillow": "12.3.0"
+  },
+  "common_sources_sha256": {
+    "plot_common.py": "dd00664dc729b91e9e77d9bdc82be458155dbcbba9513e1c01421819ed6700de",
+    "plot_raster_label.py": "cd18ab09474652ff5b7f3eeea50caef570386c0ad39f498a9711f8dfdaeb953e"
+  },
+  "figures": [
+    {
+      "figure": 4,
+      "label": "Top1 agreement with the GTEx hippocampal label and the provisional HPA frontal label",
+      "script": "plot_figure_4.py",
+      "script_sha256": "40ca4f2504da84801770a3d91e6d4c7d0259d56437e25fa9120ee5c2fee8f320",
+      "inputs_sha256": {
+        "inputs/figure_4/HUMAN_TOP1_INTERSECTIONS.csv": "2cda001a99b1c24742cb45fbd352a12baed90201407915dd943ca93a04ed7273"
+      },
+      "font": "DejaVuSans-Bold.ttf",
+      "font_sha256": "b184b89e3c1075f22f6b71575b6fc20d4972b3cfd3b23322ca6fd596dcaef167",
+      "embedded_media": "word/media/image4.png",
+      "width_height": [
+        1921,
+        892
+      ],
+      "rendered_png_sha256": "b0396958136a62a34f5bf889665e1684f5db94337ebbd6faa4f99423520683b8",
+      "english_png_sha256": "b0396958136a62a34f5bf889665e1684f5db94337ebbd6faa4f99423520683b8",
+      "chinese_png_sha256": "b0396958136a62a34f5bf889665e1684f5db94337ebbd6faa4f99423520683b8",
+      "identical_png_bytes": true,
+      "command": "python -B plot_figure_4.py --output plots/Figure_4.png"
+    },
+    {
+      "figure": 7,
+      "label": "Align counts to source genes",
+      "script": "plot_figure_7.py",
+      "script_sha256": "1e9d6310262d697fc9d7b80a8b672bd7ef6fb65d13054a1fb01a1b54d7f1229b",
+      "inputs_sha256": {
+        "inputs/figure_7/EXTERNAL_THREE_TIER.csv": "951e74ac1959ba2e13efb2c9674d47feeb9f1a38cbc193ca52205e1569cd1ec0",
+        "inputs/figure_7/SOURCE_THREE_TIER.csv": "79586e8cd7678f6ad21a2aeeb2a655d3f6b74d7ed8c7b2568bc55a29a0eede54"
+      },
+      "font": "DejaVuSans.ttf",
+      "font_sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+      "embedded_media": "word/media/image10.png",
+      "width_height": [
+        3060,
+        1545
+      ],
+      "rendered_png_sha256": "dea86cc8cba6bb01f7d5d750c4d006349152dbc01c20a68bb5ba3546dfb197ff",
+      "english_png_sha256": "dea86cc8cba6bb01f7d5d750c4d006349152dbc01c20a68bb5ba3546dfb197ff",
+      "chinese_png_sha256": "dea86cc8cba6bb01f7d5d750c4d006349152dbc01c20a68bb5ba3546dfb197ff",
+      "identical_png_bytes": true,
+      "command": "python -B plot_figure_7.py --output plots/Figure_7.png"
+    }
+  ],
+  "plotting_archive_doi": "10.5281/zenodo.24422002"
+}

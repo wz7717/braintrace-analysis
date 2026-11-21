@@ -1,8 +1,8 @@
 # Standalone manuscript figures
 
-For Figure 1, `plot_figure_1.py` draws the 20 November 2026 schematic with GTEx, HPA and Allen ACT. The [Figure 1 render receipt](FIGURE_1_ACCEPTANCE_20261120.json) records the exact PNG. The earlier seven-figure acceptance record refers to its original manuscript.
+The seven programs use the saved aggregate tables or, for Figure 1, the reference schematic. Matplotlib's bundled DejaVu fonts render the Figure 4 title and the Figure 7A input label in PNG output. Both scripts retain native text in vector output. The [v38 render receipt](FIGURES_4_7_V38.json) identifies the scripts, inputs, fonts and PNGs checked against both v38 Word documents.
 
-The original seven-image check used the stored figure values and schematic for the 15 November manuscript. The receipt above binds the revised Figure 1. The [November 20 Figure 4 and Figure 7 receipt](FIGURES_4_7_ACCEPTANCE_20261120.json) binds the public drawing scripts to the corresponding embedded images. Figure 4 uses the archived November 17 script. Figure 7 uses both revised aggregate inputs. Each program runs separately. The input tables hold the published aggregate task strata, counts and saved intervals relevant to that figure. [Code origins](PLOT_CODE_PROVENANCE.csv) · [Input provenance](PLOT_INPUT_PROVENANCE.csv) · [Seven-image QA receipt](FIGURE_ACCEPTANCE.json)
+The [Figure 1 receipt](FIGURE_1_ACCEPTANCE_20261120.json) identifies the Ensembl 97 schematic. The [17 November figure record](FIGURE_ACCEPTANCE.json) and [20 November Figure 4 and 7 record](FIGURES_4_7_ACCEPTANCE_20261120.json) describe their respective editions. [Code origins](PLOT_CODE_PROVENANCE.csv) · [Input provenance](PLOT_INPUT_PROVENANCE.csv)
 
 | Figures | Checked rendering environment |
 | --- | --- |

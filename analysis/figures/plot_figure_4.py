@@ -9,6 +9,7 @@ import numpy as np
 import pandas as pd
 
 from plot_common import renderer_args
+from plot_raster_label import save_labeled_figure
 
 
 def main():
@@ -49,7 +50,8 @@ def main():
         axis.set_title(title, fontsize=11, pad=14, loc="left")
         axis.invert_yaxis()
     axes[1].tick_params(axis="y", labelleft=True)
-    fig.suptitle("Shared and method-specific Top1 errors", x=0.04, ha="left", fontweight="bold", fontsize=14)
+    title = "Top1 agreement with the GTEx hippocampal label and the provisional HPA frontal label"
+    fig.suptitle(title, x=0.04, ha="left", fontweight="bold", fontsize=14)
     handles, labels = axes[0].get_legend_handles_labels()
     fig.legend(handles, labels, loc="lower center", ncol=4, frameon=False, bbox_to_anchor=(0.5, 0.04))
     fig.text(
@@ -57,7 +59,11 @@ def main():
         fontsize=9, color="#424c59",
     )
     fig.subplots_adjust(top=0.78, bottom=0.28, wspace=0.16, left=0.10, right=0.98)
-    fig.savefig(args.output, dpi=180, bbox_inches="tight", facecolor="white")
+    save_labeled_figure(
+        fig, args.output, title, font_name="DejaVuSans-Bold.ttf", font_size=35,
+        bounds=(16, 12, 1880, 58), background="white", position=(19, 18),
+        anchor="lt", dpi=180, bbox_inches="tight", facecolor="white",
+    )
     plt.close(fig)
 
 

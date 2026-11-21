@@ -10,6 +10,7 @@ from matplotlib.lines import Line2D
 from matplotlib.patches import FancyBboxPatch
 
 from plot_common import read_rows, renderer_args
+from plot_raster_label import save_labeled_figure
 
 
 def one(rows, **keys):
@@ -38,7 +39,8 @@ def main():
 
     def arrow(a, b):
         ax.annotate('', xy=b, xytext=a, arrowprops={'arrowstyle': '->', 'lw': 1.1, 'color': '#444444'})
-    box(0.005, 0.28, 0.2, 0.42, 'Individual profile\nFull-library ln(1 + CPM)\nSource-only gene adapter', '#F0F2F4')
+    input_label = "Align counts to source genes"
+    box(0.005, 0.28, 0.2, 0.42, f'Individual profile\nFull-library ln(1 + CPM)\n{input_label}', '#F0F2F4')
     box(0.25, 0.5, 0.27, 0.34, 'Network\n5,000 genes; floor + clip\nFrozen logistic classifier', '#E8F1F6')
     box(0.565, 0.5, 0.17, 0.34, 'Top3 Network\ncandidate regions', '#E8F1F6')
     box(0.785, 0.56, 0.21, 0.28, 'Group\nPearson over 200 genes\nMaximum member score', '#EAF3EF')
@@ -93,7 +95,11 @@ def main():
     ax.set_xlabel('Donor-averaged accuracy (%)')
     ax.set_title('C  BrainTrace external results\nDistinct Network and fine evaluation sets', loc='left')
     ax.text(0, -0.3, 'Labels show specimens / donors; fine sets contain 5 labels each.', transform=ax.transAxes, fontsize=8.4)
-    fig.savefig(args.output, dpi=300)
+    save_labeled_figure(
+        fig, args.output, input_label, font_name="DejaVuSans.ttf", font_size=39,
+        bounds=(221, 294, 798, 336), background="#f0f2f4", position=(510, 296),
+        anchor="mt", dpi=300,
+    )
     plt.close(fig)
 
 

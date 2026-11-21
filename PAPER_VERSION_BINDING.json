@@ -28,5 +28,6 @@
     "scope": "Updated the manuscript and reviewer links to the audited analysis and application commits. Supplementary Table S37 identifies the current Ensembl 97 references.",
     "embedded_figure_files_identical_to_previous_revision": true
   },
-  "analysis_code_commit": "243557aacf77f5613e0b1e5720fa72f612ff8aef"
+  "analysis_code_commit": "243557aacf77f5613e0b1e5720fa72f612ff8aef",
+  "v38_figure_acceptance": "analysis/figures/FIGURES_4_7_V38.json"
 }
